@@ -1,23 +1,13 @@
 ---
-title: "maRS"
 permalink: /softwares/mars/
+title: "maRS"
 author_profile: false
 ---
 
 # maRS
 
-## Multivariate Analysis and Regression Software
+## Multivariate Analysis and Regression System
 
-O maRS é um software desenvolvido pelo LAQUALI para análise multivariada e regressão.
+The **maRS** software provides tools for multivariate data analysis, chemometrics, classification, regression, and related analytical applications.
 
-### Principais recursos
-
-- Análise exploratória
-- PCA
-- PLS
-- Seleção de variáveis
-- Validação de modelos
-- Pré-processamento
-- Avaliação de desempenho
-
-[Site do maRS →](LINK_DO_MARS)
+More information about the software, its features, applications, and downloads will be available here.
