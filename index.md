@@ -4,24 +4,28 @@ title: "LAQUALI"
 author_profile: false
 ---
 
-# Laboratory of Food Analysis Research
+# About LAQUALI
 
-## Federal University of Lavras – UFLA
+## Laboratory of Food Analysis Research
 
-**LAQUALI** develops and applies analytical methods for the characterization, quality assessment, authenticity, and safety of food, beverages, and products of interest to the Agricultural Sciences.
+The **Laboratory of Food Analysis Research (LAQUALI)** is part of the Department of Food Science at the Federal University of Lavras (UFLA), Brazil.
 
-### Research
+LAQUALI develops and applies analytical methods for the characterization, quality assessment, authenticity, and safety of food, beverages, and products of interest to the Agricultural Sciences.
 
-Our research involves the development and application of different analytical strategies, with emphasis on:
+### Research Areas
+
+Our research focuses on the development and application of analytical strategies involving:
 
 - Spectroscopy
 - Chemometrics
 - Instrumental methods
-- Rapid and portable methods
+- Rapid and portable analytical methods
 - Food and beverage analysis
 - Product authenticity and quality
-- Method development and validation
+- Analytical method development and validation
 
-### Software
+### Federal University of Lavras
 
-The laboratory also develops computational tools for data analysis and experimental design, including **maRS**, **DesignERS**, **Chemoface**, and **SensoMaker**.
+Department of Food Science  
+Federal University of Lavras  
+Lavras – Minas Gerais – Brazil
