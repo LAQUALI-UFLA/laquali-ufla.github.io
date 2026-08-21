@@ -4,7 +4,18 @@ main:
     url: /
 
   - title: "Softwares"
-    url: /softwares/
+    children:
+      - title: "maRS"
+        url: /softwares/mars/
+
+      - title: "DesignERS"
+        url: /softwares/designers/
+
+      - title: "Chemoface"
+        url: /softwares/chemoface/
+
+      - title: "SensoMaker"
+        url: /softwares/sensomaker/
 
   - title: "ORCID"
-    url: "COLOQUE_AQUI_O_LINK_DO_ORCID"
+    url: "SEU_LINK_ORCID"
