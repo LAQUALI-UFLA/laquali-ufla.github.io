@@ -1,6 +1,6 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /
+title: "LAQUALI"
 author_profile: false
 ---
 
