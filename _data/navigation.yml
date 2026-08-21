@@ -1,10 +1,11 @@
 main:
 
   - title: "Home"
-    url: /
+    url: /about/
 
   - title: "Softwares"
     children:
+
       - title: "maRS"
         url: /softwares/mars/
 
@@ -18,4 +19,4 @@ main:
         url: /softwares/sensomaker/
 
   - title: "ORCID"
-    url: "SEU_LINK_ORCID"
+    url: "https://orcid.org/0000-0002-5147-7357"
