@@ -1,17 +1,10 @@
 main:
+
   - title: "Home"
     url: /about/
 
   - title: "Softwares"
-    children:
-      - title: "maRS"
-        url: /softwares/mars/
-      - title: "DesignERS"
-        url: /softwares/designers/
-      - title: "Chemoface"
-        url: /softwares/chemoface/
-      - title: "SensoMaker"
-        url: /softwares/sensomaker/
+    url: /softwares/
 
   - title: "ORCID"
     url: "https://orcid.org/0000-0002-5147-7357"
