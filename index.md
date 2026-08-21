@@ -25,8 +25,3 @@ Our research involves the development and application of different analytical st
 ### Software
 
 The laboratory also develops computational tools for data analysis and experimental design, including **maRS**, **DesignERS**, **Chemoface**, and **SensoMaker**.
-
-### Federal University of Lavras
-
-Department of Food Science  
-Lavras – Minas Gerais – Brazil
