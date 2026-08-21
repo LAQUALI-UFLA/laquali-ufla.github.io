@@ -4,29 +4,29 @@ title: "LAQUALI"
 author_profile: false
 ---
 
-# Laboratório de Pesquisa em Análise de Alimentos
+# Laboratory of Food Analysis Research
 
-## Universidade Federal de Lavras – UFLA
+## Federal University of Lavras – UFLA
 
-O **LAQUALI** desenvolve e aplica métodos analíticos para a caracterização, avaliação da qualidade, autenticidade e segurança de alimentos, bebidas e produtos de interesse das Ciências Agrárias.
+**LAQUALI** develops and applies analytical methods for the characterization, quality assessment, authenticity, and safety of food, beverages, and products of interest to the Agricultural Sciences.
 
-### Pesquisa
+### Research
 
-Nossa pesquisa envolve o desenvolvimento e aplicação de diferentes estratégias analíticas, com destaque para:
+Our research involves the development and application of different analytical strategies, with emphasis on:
 
-- Espectroscopia
-- Quimiometria
-- Métodos instrumentais
-- Métodos rápidos e portáteis
-- Análise de alimentos e bebidas
-- Autenticidade e qualidade de produtos
-- Desenvolvimento e validação de métodos
+- Spectroscopy
+- Chemometrics
+- Instrumental methods
+- Rapid and portable methods
+- Food and beverage analysis
+- Product authenticity and quality
+- Method development and validation
 
-### Softwares
+### Software
 
-O laboratório também desenvolve ferramentas computacionais para análise de dados e planejamento experimental, incluindo **maRS**, **DesignERS**, **Chemoface** e **SensoMaker**.
+The laboratory also develops computational tools for data analysis and experimental design, including **maRS**, **DesignERS**, **Chemoface**, and **SensoMaker**.
 
-### Universidade Federal de Lavras
+### Federal University of Lavras
 
-Departamento de Ciência dos Alimentos  
-Lavras – Minas Gerais – Brasil
+Department of Food Science  
+Lavras – Minas Gerais – Brazil
