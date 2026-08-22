@@ -10,7 +10,7 @@
   float: left;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 3em;
+  margin-top: 0; /* MUDADO: de 3em para 0 (não afeta o rodapé fixo, mas evita sobreposição no scroll) */
   width: 100%;
   clear: both;
 
@@ -31,9 +31,9 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
+    margin-top: 0.3em; /* MUDADO: de 1em para 0.3em (diminui o espaço no topo do conteúdo interno) */
     max-width: 100%;
-    padding: 0 1em 1em;
+    padding: 0 1em 0.3em; /* MUDADO: o último valor de 1em para 0.3em (diminui o espaço abaixo) */
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -67,7 +67,7 @@
 
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-7;
+  font-size: 0.75em;
 }
 
 .page__footer-follow {
@@ -79,8 +79,8 @@
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;    /* MUDADO: de 5px para 2px (diminui o espaçamento dos ícones/links) */
+    padding-bottom: 2px; /* MUDADO: de 5px para 2px */
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     text-transform: uppercase;
