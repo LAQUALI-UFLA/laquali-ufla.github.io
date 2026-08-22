@@ -37,3 +37,12 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* Hides the dark mode toggle button/icon */
+.theme-toggle,
+#theme-toggle,
+.dark-mode-toggle,
+button[aria-label*="dark"],
+button[aria-label*="theme"] {
+  display: none !important;
+}
