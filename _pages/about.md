@@ -3,7 +3,6 @@ permalink: /
 title: ""
 author_profile: false
 ---
-
 <p align="left">
   <img src="{{ '/images/logo_LAQUALI.png' | relative_url }}" alt="LAQUALI Logo" width="300">
 </p>
