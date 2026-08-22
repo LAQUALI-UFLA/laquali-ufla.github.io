@@ -1,26 +1,24 @@
 ---
-permalink: /softwares/
-title: "Softwares"
+permalink: /software/
+title: "Software"
 author_profile: false
 ---
 
-# Software
-
-The LAQUALI develops computational tools for data analysis, chemometrics, experimental design, and sensory analysis.
+LAQUALI develops free computational tools for chemometrics, experimental design, multivariate data analysis, and sensory evaluation.
 
 ## maRS
 
-**maRS** is a software tool for multivariate analysis and chemometric data processing.
+**maRS** is a software tool designed for multivariate analysis and chemometric data processing.
 
-[Learn more about maRS →](/softwares/mars/)
+[Learn more about maRS →](/software/mars/)
 
 ---
 
 ## DesignERS
 
-**DesignERS** is a software tool for experimental design and optimization.
+**DesignERS** is a software tool for experimental design and process optimization.
 
-[Learn more about DesignERS →](/softwares/designers/)
+[Learn more about DesignERS →](/software/designers/)
 
 ---
 
@@ -28,12 +26,12 @@ The LAQUALI develops computational tools for data analysis, chemometrics, experi
 
 **Chemoface** is a software tool for chemometric analysis and multivariate data processing.
 
-[Learn more about Chemoface →](/softwares/chemoface/)
+[Learn more about Chemoface →](/software/chemoface/)
 
 ---
 
 ## SensoMaker
 
-**SensoMaker** is a software tool for sensory analysis and data analysis.
+**SensoMaker** is a software tool for the acquisition and analysis of sensory test data.
 
-[Learn more about SensoMaker →](/softwares/sensomaker/)
+[Learn more about SensoMaker →](/software/sensomaker/)
