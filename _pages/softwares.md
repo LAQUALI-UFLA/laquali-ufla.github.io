@@ -12,7 +12,7 @@ LAQUALI develops **free** computational tools for chemometrics, experimental des
 
 [Learn more about maRS →](/mars/)
 
----
+
 
 ## DesignERS
 
@@ -20,7 +20,7 @@ LAQUALI develops **free** computational tools for chemometrics, experimental des
 
 [Learn more about DesignERS →](/designers/)
 
----
+
 
 ## Chemoface
 
@@ -28,7 +28,7 @@ LAQUALI develops **free** computational tools for chemometrics, experimental des
 
 [Learn more about Chemoface →](/chemoface/)
 
----
+
 
 ## SensoMaker
 
