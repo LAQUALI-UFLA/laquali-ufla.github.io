@@ -8,6 +8,13 @@
           <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
             <a href="{{ base_path }}/">{{ site.title }}</a>
           </li>
+
+          {% if page.url contains '/pt/' %}
+            {% assign navigation = site.data.navigation_pt %}
+          {% else %}
+            {% assign navigation = site.data.navigation %}
+          {% endif %}
+          
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
