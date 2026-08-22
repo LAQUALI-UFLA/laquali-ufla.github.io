@@ -52,7 +52,7 @@ SensoMaker is available for Microsoft Windows (32-bit and 64-bit).
 
    [Download MCR](https://www.dropbox.com/scl/fi/413gsdj747myotqo7m77u/MCRInstaller.exe?rlkey=wb6u5iir8zd9d1mlqdf0thwnx&st=82y878m8&dl=1)
 
-2. Download and install **SensoMaker**:
+2. Download and install **SensoMaker (v1.95)**:
 
    [Download SensoMaker](https://www.dropbox.com/scl/fi/c0pm7d3pmj1pxgwg72zz8/SensoMaker_1-95_setup.exe?rlkey=heioj2fz25fw4b3jmh8iarzl7&st=fniip3bb&dl=1)
 
@@ -63,7 +63,7 @@ A screen resolution of at least **1024 × 768 pixels** is recommended.
 
 SensoMaker uses a **dot (`.`) as the decimal separator**.
 
-For detailed instructions on using the software, please refer to the [SensoMaker User Guide](https://github.com/cleitonqmc/SensoMaker/blob/SensoMaker/SensoMaker.pdf).
+For detailed instructions on using the software, please access the User Guide through the Help > User Guide menu on the software's home screen.
 
 ## Reference
 
