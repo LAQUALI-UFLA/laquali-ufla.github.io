@@ -1,88 +1,128 @@
-name: Update ORCID Publications
+name: Update publications from ORCID
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Executa diariamente à meia-noite (UTC)
-  workflow_dispatch:      # Permite rodar manualmente a qualquer momento
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  update-orcid:
+  update-publications:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Fetch and update ORCID data
+      - name: Fetch publications from ORCID
         run: |
-          python -c "
-          import urllib.request
+          python <<'PY'
           import json
+          import urllib.request
           import os
 
-          orcid_id = '0000-0002-5147-7357'
-          url = f'https://pub.orcid.org/v3.0/{orcid_id}/works'
-          
+          orcid_id = "0000-0002-5147-7357"
+          url = f"https://pub.orcid.org/v3.0/{orcid_id}/works"
+
+          # User-Agent adicionado para evitar bloqueio 403 da API
           headers = {
-              'Accept': 'application/json',
-              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+              "Accept": "application/json",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
           }
-          req = urllib.request.Request(url, headers=headers)
 
-          try:
-              with urllib.request.urlopen(req) as response:
-                  data = json.loads(response.read().decode('utf-8'))
-              
-              works = [g['work-summary'][0] for g in data.get('group', [])]
-              recent_works = []
+          request = urllib.request.Request(url, headers=headers)
 
-              for w in works:
-                  pub_date = w.get('publication-date')
-                  year_str = pub_date.get('year', {}).get('value') if pub_date else None
-                  
-                  if year_str and int(year_str) >= 2020:
-                      title = w.get('title', {}).get('title', {}).get('value', 'Untitled')
-                      journal = w.get('journal-title', {}).get('value', '') if w.get('journal-title') else ''
-                      
-                      doi_url = ''
-                      ext_ids = w.get('external-ids', {}).get('external-id', [])
-                      for ext_id in ext_ids:
-                          if ext_id.get('external-id-type', '').lower() == 'doi':
-                              doi_url = ext_id.get('external-id-url', {}).get('value', '')
-                              ext_val = ext_id.get('external-id-value', '')
-                              if not doi_url and ext_val:
-                                  doi_url = 'https://doi.org/' + str(ext_val)
-                              break
-                      
-                      recent_works.append({
-                          'title': title,
-                          'year': year_str,
-                          'journal': journal,
-                          'doi': doi_url
-                      })
+          with urllib.request.urlopen(request) as response:
+              data = json.load(response)
 
-              recent_works.sort(key=lambda x: int(x['year']), reverse=True)
+          publications = []
 
-              os.makedirs('_data', exist_ok=True)
-              with open('_data/publications.json', 'w', encoding='utf-8') as f:
-                  json.dump(recent_works, f, ensure_ascii=False, indent=2)
+          for group in data.get("group", []):
+              summaries = group.get("work-summary", [])
 
-              print(f'Successfully saved {len(recent_works)} publications.')
+              if not summaries:
+                  continue
 
-          except Exception as e:
-              print(f'Error fetching ORCID data: {e}')
-              raise e
-          "
+              work = summaries[0]
 
-      - name: Commit and push changes
+              publication_date = work.get("publication-date") or {}
+              year_data = publication_date.get("year") or {}
+              year = year_data.get("value")
+
+              if not year:
+                  continue
+
+              try:
+                  year_int = int(year)
+              except (TypeError, ValueError):
+                  continue
+
+              if year_int < 2020:
+                  continue
+
+              title_data = work.get("title") or {}
+              title_obj = title_data.get("title") or {}
+              title = title_obj.get("value", "Untitled")
+
+              journal_data = work.get("journal-title") or {}
+              journal = journal_data.get("value", "")
+
+              doi = ""
+
+              external_ids = work.get("external-ids") or {}
+              external_id_list = external_ids.get("external-id", [])
+
+              for external_id in external_id_list:
+                  if external_id.get("external-id-type", "").lower() == "doi":
+                      doi_value = external_id.get("external-id-value", "")
+                      doi_url = (external_id.get("external-id-url") or {}).get("value", "")
+
+                      if doi_url:
+                          doi = doi_url
+                      elif doi_value:
+                          doi = f"https://doi.org/{doi_value}"
+
+                      break
+
+              publications.append({
+                  "title": title,
+                  "year": year_int,
+                  "journal": journal,
+                  "doi": doi
+              })
+
+          publications.sort(
+              key=lambda item: item["year"],
+              reverse=True
+          )
+
+          # Cria a pasta _data se ela não existir
+          os.makedirs("_data", exist_ok=True)
+
+          # Salva o arquivo na pasta _data/ exata para uso do Jekyll
+          with open("_data/publications.json", "w", encoding="utf-8") as file:
+              json.dump(
+                  publications,
+                  file,
+                  ensure_ascii=False,
+                  indent=2
+              )
+
+          print(f"Updated {len(publications)} publications.")
+          PY
+
+      - name: Commit updated publications
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add _data/publications.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: update ORCID publications" && git push)
+
+          if git diff --cached --quiet; then
+            echo "No changes to publications."
+          else
+            git commit -m "Update publications from ORCID"
+            git push
+          fi
