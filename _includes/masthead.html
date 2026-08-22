@@ -10,21 +10,21 @@
           </li>
 
           {% if page.url contains '/pt/' %}
-            {% assign navigation = site.data.navigation_pt %}
-          {% else %}
-            {% assign navigation = site.data.navigation %}
-          {% endif %}
-          
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-            </li>
-          {% endfor %}
+  {% assign navigation = site.data.navigation_pt %}
+{% else %}
+  {% assign navigation = site.data.navigation %}
+{% endif %}
+
+{% for link in navigation.main %}
+  {% if link.url contains 'http' %}
+    {% assign domain = '' %}
+  {% else %}
+    {% assign domain = base_path %}
+  {% endif %}
+  <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+    <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+  </li>
+{% endfor %}
           <!--
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
