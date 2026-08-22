@@ -30,6 +30,19 @@
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
           -->
+
+          <li class="masthead__menu-item language-switcher">
+  {% if page.url contains '/pt/' %}
+    <a href="{{ page.url | remove_first: '/pt' }}">EN</a>
+    <span> | </span>
+    <strong>PT</strong>
+  {% else %}
+    <strong>EN</strong>
+    <span> | </span>
+    <a href="/pt{{ page.url }}">PT</a>
+  {% endif %}
+</li>
+          
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
