@@ -4,7 +4,7 @@ title: "Software"
 author_profile: false
 ---
 
-LAQUALI develops free computational tools for chemometrics, experimental design, multivariate data analysis, and sensory evaluation.
+LAQUALI develops **free** computational tools for chemometrics, experimental design, multivariate data analysis, and sensory evaluation.
 
 ## maRS
 
@@ -24,7 +24,7 @@ LAQUALI develops free computational tools for chemometrics, experimental design,
 
 ## Chemoface
 
-**Chemoface** is a software tool for chemometric analysis and multivariate data processing.
+**Chemoface** is a software tool for chemometric analysis and experimental design.
 
 [Learn more about Chemoface →](/software/chemoface/)
 
