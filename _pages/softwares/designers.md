@@ -4,10 +4,6 @@ title: "DesignERS"
 author_profile: false
 ---
 
-# DesignERS
+The **DesignERS** software provides tools for experimental design and optimization, including factorial designs, response surface methodology, mixture designs, and desirability analysis.
 
-## Experimental Design and Optimization
-
-**DesignERS** is a software tool developed for experimental design and optimization.
-
-More information about the software, its features, experimental designs, and applications will be available here.
+More information about the software, including its features, applications, and downloads, will be available soon.
