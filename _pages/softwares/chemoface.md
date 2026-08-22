@@ -74,7 +74,7 @@ For detailed instructions on using the software, please refer to the [Chemoface 
 
 Chemoface was described in:
 
-> Nunes, C. A.; Freitas, M. P. **Chemoface: a novel free user-friendly software for chemometrics.** *Journal of the Brazilian Chemical Society*, 2012.
+Nunes, C. A.; Freitas, M. P.; Pinheiro, A. C. M.; Bastos, S. C. **Chemoface: a novel free user-friendly interface for chemometrics.** *Journal of the Brazilian Chemical Society*, 2012.
 [DOI: 10.1590/S0103-50532012005000073](https://doi.org/10.1590/S0103-50532012005000073)
 
 ## Contact
