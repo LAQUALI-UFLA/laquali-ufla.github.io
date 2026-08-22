@@ -4,10 +4,6 @@ title: "maRS"
 author_profile: false
 ---
 
-# maRS
+The **maRS** software provides tools for multivariate data analysis, including pattern recognition, classification, regression, and other related analytical applications.
 
-## Multivariate Analysis and Regression System
-
-The **maRS** software provides tools for multivariate data analysis, chemometrics, classification, regression, and related analytical applications.
-
-More information about the software, its features, applications, and downloads will be available here.
+More information about the software, including its features, applications, and downloads, will be available soon.
