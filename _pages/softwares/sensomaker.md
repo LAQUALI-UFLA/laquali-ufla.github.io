@@ -4,7 +4,7 @@ title: "SensoMaker"
 author_profile: false
 ---
 <p align="left">
-  <img src="{{ '/images/logo_sensomaker.png' | relative_url }}" alt="Sensomaker Logo" width="200">
+  <img src="{{ '/images/logo_sensomaker.png' | relative_url }}" alt="Sensomaker Logo" width="100">
 </p>
 
 **SensoMaker is a software tool for the acquisition and analysis of sensory test data.**
