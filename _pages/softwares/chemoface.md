@@ -4,7 +4,7 @@ title: "Chemoface"
 author_profile: false
 ---
 <p align="left">
-  <img src="{{ '/images/logo_chemoface.png' | relative_url }}" alt="Chemoface Logo" width="200">
+  <img src="{{ '/images/logo_chemoface.png' | relative_url }}" alt="Chemoface Logo" width="150">
 </p>
 
 **Chemoface is a free, user-friendly software for chemometric analysis and experimental design.**
