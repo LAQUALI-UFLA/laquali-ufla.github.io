@@ -13,8 +13,7 @@ The laboratory is linked to the Research Group on Analytical Sciences Applied to
 
 LAQUALI focuses on developing and applying innovative analytical methods to ensure the characterization, quality, authenticity, and safety of food, beverages, and agricultural products.
 
-## Research Focus & Expertise:
-
+## Research Focus & Expertise
 
 **Methodology & Analytical Tools**
 * Spectroscopy, e-nose, sensors, and digital imaging
