@@ -1,5 +1,5 @@
 ---
-permalink: /softwares/
+permalink: /softwares/chemoface/
 title: "Chemoface"
 author_profile: false
 ---
