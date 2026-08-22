@@ -5,7 +5,7 @@ author_profile: false
 ---
 
 <p align="left">
-  <img src="{{ '/assets/images/logo_LAQUALI.png' | relative_url }}" alt="LAQUALI Logo" width="300">
+  <img src="{{ '/images/logo_LAQUALI.png' | relative_url }}" alt="LAQUALI Logo" width="300">
 </p>
 
 The **Food Analysis Research Laboratory (LAQUALI)** is part of the Department of Food Science within the School of Agricultural Sciences at the Federal University of Lavras (UFLA), Brazil.
