@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Publications"
+title: ""
 permalink: /articles/
 author_profile: false
 ---
@@ -16,5 +16,5 @@ author_profile: false
   {% endfor %}
 </ol>
 {% else %}
-<p>No publications found from 2020 onwards.</p>
+<p>---</p>
 {% endif %}
