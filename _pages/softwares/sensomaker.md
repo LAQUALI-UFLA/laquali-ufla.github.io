@@ -1,5 +1,5 @@
 ---
-permalink: /softwares/sensomaker/
+permalink: /sensomaker/
 title: "SensoMaker"
 author_profile: false
 ---
