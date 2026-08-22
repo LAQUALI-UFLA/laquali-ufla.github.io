@@ -1,5 +1,5 @@
 ---
-permalink: /software/
+permalink: /
 title: "Software"
 author_profile: false
 ---
