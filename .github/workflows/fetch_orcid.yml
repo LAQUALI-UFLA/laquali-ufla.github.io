@@ -2,7 +2,7 @@ name: Update ORCID Publications
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Executa todos os dias à meia-noite (UTC)
+    - cron: '0 0 * * *'  # Executa diariamente à meia-noite (UTC)
   workflow_dispatch:      # Permite rodar manualmente a qualquer momento
 
 jobs:
@@ -28,7 +28,12 @@ jobs:
 
           orcid_id = '0000-0002-5147-7357'
           url = f'https://pub.orcid.org/v3.0/{orcid_id}/works'
-          req = urllib.request.Request(url, headers={'Accept': 'application/json'})
+          
+          headers = {
+              'Accept': 'application/json',
+              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+          }
+          req = urllib.request.Request(url, headers=headers)
 
           try:
               with urllib.request.urlopen(req) as response:
@@ -40,6 +45,7 @@ jobs:
               for w in works:
                   pub_date = w.get('publication-date')
                   year_str = pub_date.get('year', {}).get('value') if pub_date else None
+                  
                   if year_str and int(year_str) >= 2020:
                       title = w.get('title', {}).get('title', {}).get('value', 'Untitled')
                       journal = w.get('journal-title', {}).get('value', '') if w.get('journal-title') else ''
@@ -49,8 +55,9 @@ jobs:
                       for ext_id in ext_ids:
                           if ext_id.get('external-id-type', '').lower() == 'doi':
                               doi_url = ext_id.get('external-id-url', {}).get('value', '')
-                              if not doi_url and ext_id.get('external-id-value'):
-                                  doi_url = f'https://doi.org/{ext_id.get(\"external-id-value\")}'
+                              ext_val = ext_id.get('external-id-value', '')
+                              if not doi_url and ext_val:
+                                  doi_url = 'https://doi.org/' + str(ext_val)
                               break
                       
                       recent_works.append({
@@ -70,7 +77,7 @@ jobs:
 
           except Exception as e:
               print(f'Error fetching ORCID data: {e}')
-              exit(1)
+              raise e
           "
 
       - name: Commit and push changes
