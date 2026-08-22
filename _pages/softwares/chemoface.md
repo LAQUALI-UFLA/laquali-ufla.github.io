@@ -3,6 +3,9 @@ permalink: /chemoface/
 title: "Chemoface"
 author_profile: false
 ---
+<p align="left">
+  <img src="{{ '/images/logo_chemoface.png' | relative_url }}" alt="LAQUALI Logo" width="300">
+</p>
 
 **Chemoface is a free, user-friendly software for chemometric analysis and experimental design.**
 
