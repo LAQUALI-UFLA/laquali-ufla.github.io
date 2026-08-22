@@ -6,5 +6,5 @@ main:
   - title: "Softwares"
     url: /softwares/
 
-  - title: "ORCID"
-    url: "https://orcid.org/0000-0002-5147-7357"
+  - title: "Publications"
+    url: /articles/
