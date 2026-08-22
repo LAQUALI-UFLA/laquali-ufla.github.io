@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "LAQUALI"
+title: ""
 author_profile: false
 ---
 
