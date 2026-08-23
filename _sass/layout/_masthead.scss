@@ -46,12 +46,18 @@
 }
 
 .masthead__menu {
-
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+  }
+
+  /* Prevent navigation line breaks when menu items expand */
+  .greedy-nav .visible-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 }
 
@@ -61,44 +67,53 @@
   white-space: nowrap;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 1.5em;
     font-weight: 700;
+  }
+
+  &.selected a {
+    color: var(--global-text-color);
+    font-weight: 700;
+    border-bottom: 2px solid var(--global-text-color);
+    pointer-events: none;
+    cursor: default;
+
+    &:hover {
+      color: var(--global-text-color);
+      border-bottom: 2px solid var(--global-text-color);
+    }
   }
 }
 
-.masthead__menu-item.selected a {
-  color: var(--global-text-color);
-  font-weight: 700;
-  border-bottom: 2px solid var(--global-text-color);
-  pointer-events: none; /* Move this here */
-  cursor: default; /* Move this here too */
-}
-
-.masthead__menu-item.selected a:hover {
-  color: var(--global-text-color);
-  border-bottom: 2px solid var(--global-text-color);
-  /* No need to repeat pointer-events and cursor here */
-}
-
+/* Compact language switcher pinned to the far right */
 .language-switcher {
-  margin-left: 1em !important;
-  padding: 0 !important;
-  white-space: nowrap !important;
-  line-height: inherit !important;
-  vertical-align: middle;
+  margin-left: auto;
+  padding: 0 0 0 1em;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
 
   a,
   span {
-    display: inline !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    line-height: inherit !important;
-    vertical-align: baseline;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    border: none;
+    font-size: 0.9em;
+  }
+
+  a {
+    padding: 2px 3px;
+
+    &:hover {
+      border: none;
+    }
   }
 
   span {
-    margin-left: 4px !important;
-    margin-right: 4px !important;
+    padding: 0 2px;
+    opacity: 0.5;
   }
 
   .current-language {
