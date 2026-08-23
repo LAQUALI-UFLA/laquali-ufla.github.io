@@ -27,3 +27,5 @@ O LAQUALI concentra-se no desenvolvimento e na aplicação de métodos analític
 * Avaliação da qualidade de alimentos e bebidas
 * Autenticidade e detecção de fraudes
 * Segurança e caracterização de produtos agrícolas
+
+O laboratório conta com o apoio de agências de fomento à pesquisa, incluindo a Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), o Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), a Fundação de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG) e a Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP).
