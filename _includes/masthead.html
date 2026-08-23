@@ -63,28 +63,20 @@
 
           {% endif %}
 
-
-          <!-- LANGUAGE SWITCHER -->
-          <li class="masthead__menu-item language-switcher">
-
-            {% if page.url contains '/pt/' %}
-
-              <a href="{{ page.url | remove_first: '/pt' }}">EN</a>
-              <span> | </span>
-              <strong>PT</strong>
-
-            {% else %}
-
-              <strong>EN</strong>
-              <span> | </span>
-              <a href="/pt{{ page.url }}">PT</a>
-
-            {% endif %}
-
-          </li>
-
-
         </ul>
+
+        <!-- LANGUAGE SWITCHER -->
+        <div class="language-switcher">
+          {% if page.url contains '/pt/' %}
+            <a href="{{ page.url | remove_first: '/pt' }}">EN</a>
+            <span>|</span>
+            <strong>PT</strong>
+          {% else %}
+            <strong>EN</strong>
+            <span>|</span>
+            <a href="/pt{{ page.url }}">PT</a>
+          {% endif %}
+        </div>  
 
         <ul class="hidden-links hidden"></ul>
 
