@@ -6,6 +6,7 @@ The [**Food Analysis Research Laboratory (LAQUALI)**](https://laquali-ufla.githu
 
 The laboratory is linked to the Research Group on Analytical Sciences Applied to Agri-food Products and is led by [Prof. Cleiton Nunes](https://sciprofiles.com/profile/2973549).
 
+<br>
 LAQUALI focuses on developing and applying innovative analytical methods to ensure the characterization, quality, authenticity, and safety of food, beverages, and agricultural products.
 
 ## Research Focus & Expertise
