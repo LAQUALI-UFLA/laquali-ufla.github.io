@@ -19,12 +19,10 @@
             {% endif %}
           </li>
 
-
-          <!-- MENU EM PORTUGUÊS -->
+          <!-- MENU -->
           {% if page.url contains '/pt/' %}
 
             {% for link in site.data.navigation_pt.main %}
-
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
               {% else %}
@@ -37,15 +35,11 @@
                 {% endif %}">
                 <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               </li>
-
             {% endfor %}
 
-
-          <!-- MENU EM INGLÊS -->
           {% else %}
 
             {% for link in site.data.navigation.main %}
-
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
               {% else %}
@@ -58,28 +52,26 @@
                 {% endif %}">
                 <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               </li>
-
             {% endfor %}
 
           {% endif %}
 
+          <!-- LANGUAGE SWITCHER -->
+          <li class="masthead__menu-item language-switcher">
+            {% if page.url contains '/pt/' %}
+              <a href="{{ page.url | remove_first: '/pt' }}">EN</a>
+              <span>|</span>
+              <strong>PT</strong>
+            {% else %}
+              <strong>EN</strong>
+              <span>|</span>
+              <a href="/pt{{ page.url }}">PT</a>
+            {% endif %}
+          </li>
+
         </ul>
 
-        <!-- LANGUAGE SWITCHER -->
-        <div class="language-switcher">
-          {% if page.url contains '/pt/' %}
-            <a href="{{ page.url | remove_first: '/pt' }}">EN</a>
-            <span>|</span>
-            <strong>PT</strong>
-          {% else %}
-            <strong>EN</strong>
-            <span>|</span>
-            <a href="/pt{{ page.url }}">PT</a>
-          {% endif %}
-        </div>  
-
         <ul class="hidden-links hidden"></ul>
-
       </nav>
     </div>
   </div>
