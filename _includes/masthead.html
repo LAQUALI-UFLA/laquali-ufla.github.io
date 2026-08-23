@@ -2,7 +2,9 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
+
       <nav id="site-nav" class="greedy-nav">
+
         <button><span class="navicon"></span></button>
 
         <ul class="visible-links">
@@ -12,17 +14,21 @@
             {% if page.url == '/' or page.url == '/index.html' or page.url == '/pt/' %}
             selected
             {% endif %}">
+
             {% if page.url contains '/pt/' %}
               <a href="{{ base_path }}/pt/">LAQUALI</a>
             {% else %}
               <a href="{{ base_path }}/">LAQUALI</a>
             {% endif %}
+
           </li>
+
 
           <!-- MENU -->
           {% if page.url contains '/pt/' %}
 
             {% for link in site.data.navigation_pt.main %}
+
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
               {% else %}
@@ -35,11 +41,13 @@
                 {% endif %}">
                 <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               </li>
+
             {% endfor %}
 
           {% else %}
 
             {% for link in site.data.navigation.main %}
+
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
               {% else %}
@@ -52,23 +60,32 @@
                 {% endif %}">
                 <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               </li>
+
             {% endfor %}
 
           {% endif %}
 
-        <!-- LANGUAGE SWITCHER -->
-        <li class="masthead__menu-item language-switcher">
-          {% if page.url contains '/pt/' %}
-            <a href="{{ page.url | remove_first: '/pt' }}">EN</a><span class="separator">|</span><span class="current-lang">PT</span>
-          {% else %}
-            <span class="current-lang">EN</span><span class="separator">|</span><a href="/pt{{ page.url }}">PT</a>
-          {% endif %}
-        </li>
-          
         </ul>
 
+
+        <!-- IDIOMA -->
+        <div class="language-switcher">
+          {% if page.url contains '/pt/' %}
+            <a href="{{ page.url | remove_first: '/pt' }}">EN</a>
+            <span>|</span>
+            <b>PT</b>
+          {% else %}
+            <b>EN</b>
+            <span>|</span>
+            <a href="/pt{{ page.url }}">PT</a>
+          {% endif %}
+        </div>
+
+
         <ul class="hidden-links hidden"></ul>
+
       </nav>
+
     </div>
   </div>
 </div>
