@@ -10,70 +10,48 @@
         <ul class="visible-links">
 
           <!-- LAQUALI -->
-          <li class="masthead__menu-item masthead__menu-item--lg persist
-            {% if page.url == '/' or page.url == '/index.html' or page.url == '/pt/' %}
-            selected
-            {% endif %}">
-
+          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' or page.url == '/pt/' %}selected{% endif %}">
             {% if page.url contains '/pt/' %}
               <a href="{{ base_path }}/pt/">LAQUALI</a>
             {% else %}
               <a href="{{ base_path }}/">LAQUALI</a>
             {% endif %}
-
           </li>
-
 
           <!-- MENU -->
           {% if page.url contains '/pt/' %}
-
             {% for link in site.data.navigation_pt.main %}
-
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
               {% else %}
                 {% assign domain = base_path %}
               {% endif %}
-
-              <li class="masthead__menu-item
-                {% if page.url contains link.url and link.url != '/pt/' %}
-                selected
-                {% endif %}">
+              <li class="masthead__menu-item persist {% if page.url contains link.url and link.url != '/pt/' %}selected{% endif %}">
                 <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               </li>
-
             {% endfor %}
-
           {% else %}
-
             {% for link in site.data.navigation.main %}
-
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
               {% else %}
                 {% assign domain = base_path %}
               {% endif %}
-
-              <li class="masthead__menu-item
-                {% if page.url contains link.url and link.url != '/' %}
-                selected
-                {% endif %}">
+              <li class="masthead__menu-item persist {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
                 <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               </li>
-
             {% endfor %}
-
           {% endif %}
 
           <!-- LANGUAGE -->
-          <li class="masthead__menu-item language-switcher">
+          <li class="masthead__menu-item language-switcher persist">
             {% if page.url contains '/pt/' %}
               <a href="{{ page.url | remove_first: '/pt' }}">EN</a><span>|</span><a href="#" class="current-language">PT</a>
             {% else %}
               <a href="#" class="current-language">EN</a><span>|</span><a href="/pt{{ page.url }}">PT</a>
             {% endif %}
           </li>
-          
+
         </ul>
 
         <ul class="hidden-links hidden"></ul>
