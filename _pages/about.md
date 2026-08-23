@@ -7,7 +7,7 @@ author_profile: false
   <img src="{{ '/images/logo_LAQUALI.png' | relative_url }}" alt="LAQUALI Logo" width="300">
 </p>
 
-The **Food Analysis Research Laboratory (LAQUALI)** is part of the Department of Food Science within the School of Agricultural Sciences at the Federal University of Lavras (UFLA), Brazil.
+The **Food Analysis Research Laboratory (LAQUALI)** is part of the Department of Food Science within the School of Agricultural Sciences at the [Federal University of Lavras (UFLA)](https://dri.ufla.br/), Brazil.
 
 The laboratory is linked to the Research Group on Analytical Sciences Applied to Agri-food Products and is led by [Prof. Cleiton Nunes](https://sciprofiles.com/profile/2973549).
 
