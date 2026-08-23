@@ -103,3 +103,27 @@
     font-weight: 700;
   }
 }
+
+/* Esconde definitivamente o botão hambúrguer */
+.greedy-nav button {
+  display: none !important;
+}
+
+/* Ajustes finos para telas de celular (até 768px) */
+@media (max-width: 768px) {
+  .masthead__inner-wrap {
+    padding: 0.4em 0.6em;
+  }
+
+  .masthead__menu-item {
+    font-size: 0.85em; /* Reduz levemente a fonte no celular */
+
+    &--lg {
+      padding-right: 0.8em;
+    }
+  }
+
+  .language-switcher {
+    margin-left: auto !important; /* Mantém o idioma alinhado à direita */
+  }
+}
