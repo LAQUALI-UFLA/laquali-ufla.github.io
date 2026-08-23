@@ -1,7 +1,7 @@
 ---
 layout: single
 title: ""
-permalink: /articles/
+permalink: /pt/articles/
 author_profile: false
 ---
 
