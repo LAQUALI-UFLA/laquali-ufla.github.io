@@ -79,3 +79,21 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  margin-left: 15px;
+  padding-right: 10px;
+  font-size: 0.85em;
+
+  a {
+    text-decoration: none;
+  }
+
+  span {
+    opacity: 0.6;
+  }
+}
