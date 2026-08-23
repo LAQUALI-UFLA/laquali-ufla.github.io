@@ -8,7 +8,7 @@ LAQUALI develops **free** computational tools for chemometrics, experimental des
 
 ## maRS
 
-**maRS** is a software tool designed for multivariate analysis and chemometric data processing.
+**maRS** is a software tool designed for multivariate analysis and chemometric data analysis.
 
 [Learn more about maRS →](/mars/)
 
@@ -16,7 +16,7 @@ LAQUALI develops **free** computational tools for chemometrics, experimental des
 
 ## DesignERS
 
-**DesignERS** is a software tool for experimental design and process optimization.
+**DesignERS** is a software tool for experimental design and optimization.
 
 [Learn more about DesignERS →](/designers/)
 
