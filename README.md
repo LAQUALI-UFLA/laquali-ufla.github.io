@@ -21,7 +21,7 @@ LAQUALI focuses on developing and applying innovative analytical methods to ensu
 * Authenticity and fraud detection
 * Agricultural product safety and characterization
 
-
+##
 LAQUALI develops **free** computational tools for chemometrics, experimental design, multivariate data analysis, and sensory evaluation.
 
 ## maRS
