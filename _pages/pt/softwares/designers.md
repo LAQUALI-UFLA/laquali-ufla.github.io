@@ -1,5 +1,5 @@
 ---
-permalink: /pt/softwares/designers/
+permalink: /pt/designers/
 title: "designers"
 author_profile: false
 ---
