@@ -9,7 +9,7 @@ author_profile: false
   <img src="{{ '/images/logo_LAQUALI.png' | relative_url }}" alt="Logo do LAQUALI" width="300">
 </p>
 
-O **Laboratório de Pesquisa em Análise de Alimentos (LAQUALI)** está vinculado ao Departamento de Ciência dos Alimentos da Escola de Ciências Agrárias da [Universidade Federal de Lavras (UFLA)](https://ufla.br/), Brasil.
+O <strong><span style="color:#0070C0">La</span>boratório de Pes<span style="color:#0070C0">qu</span>isa em <span style="color:#0070C0">A</span>nálise de <span style="color:#0070C0">Ali</span>mentos</strong> **(LAQUALI)** está vinculado ao Departamento de Ciência dos Alimentos da Escola de Ciências Agrárias da [Universidade Federal de Lavras (UFLA)](https://ufla.br/), Brasil.
 
 O laboratório está vinculado ao Grupo de Pesquisa em Ciências Analíticas Aplicadas a Produtos Agroalimentares e é liderado pelo [Prof. Cleiton Nunes](https://sciprofiles.com/profile/2973549).
 
