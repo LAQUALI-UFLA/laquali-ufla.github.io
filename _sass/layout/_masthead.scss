@@ -36,6 +36,7 @@
 
     nav {
       z-index: 10;
+      position: relative;
     }
 
     a {
@@ -80,36 +81,27 @@
 }
 
 .language-switcher {
-  display: inline-block !important;
-  white-space: nowrap !important;
-  width: auto !important;
-  margin-left: 12px;
-  padding: 0 !important;
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+
+  white-space: nowrap;
   font-size: 0.85em;
   line-height: 1;
-  vertical-align: middle;
-  position: relative;
-  top: 1px;
+
+  z-index: 30;
 }
 
 .language-switcher a,
-.language-switcher span {
-  display: inline !important;
-  white-space: nowrap !important;
-  vertical-align: middle;
-  line-height: 1;
+.language-switcher b {
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
-.language-switcher .separator {
-  margin-left: 4px;
-  margin-right: 4px;
-  opacity: 0.6;
-}
-
-.language-switcher .current-lang {
-  font-weight: 700;
-}
 .language-switcher span {
-  margin: 0 3px;
+  display: inline;
+  margin: 0 5px;
   opacity: 0.6;
 }
