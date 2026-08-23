@@ -25,3 +25,6 @@ LAQUALI focuses on developing and applying innovative analytical methods to ensu
 * Food and beverage quality assessment
 * Authenticity and fraud detection
 * Agricultural product safety and characterization
+
+
+The laboratory is supported by Brazilian research funding agencies, including the Coordination for the Improvement of Higher Education Personnel (CAPES), the National Council for Scientific and Technological Development (CNPq), the Research Support Foundation of the State of Minas Gerais (FAPEMIG), and the Research Support Foundation of the State of São Paulo (FAPESP).
