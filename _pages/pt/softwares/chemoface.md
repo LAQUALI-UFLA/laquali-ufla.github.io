@@ -34,7 +34,7 @@ O software oferece um conjunto abrangente de ferramentas para planejamento e oti
 - PCR-DA
 - PLS-DA
 
-## Funcionalidades auxiliares
+## Funcionalidades Auxiliares
 - Validação cruzada leave-one-out
 - Seleção do conjunto de teste
 - Gráficos de dados
