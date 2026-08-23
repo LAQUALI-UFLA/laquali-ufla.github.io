@@ -9,7 +9,7 @@ author_profile: false
 
 **Chemoface is a free, user-friendly software for chemometric analysis and experimental design.**
 
-The software provides a comprehensive set of tools for experimental design, pattern recognition, multivariate calibration, classification, data preprocessing, and exploratory data analysis.
+The software provides a comprehensive set of tools for experimental design, exploratory analysis, multivariate calibration, classification, and data preprocessing.
 
 ## Design of Experiments
 - Full factorial design
@@ -19,7 +19,7 @@ The software provides a comprehensive set of tools for experimental design, patt
 - Mixture design
 - Desirability function
 
-## Pattern Recognition
+## Exploratory Analysis
 - Principal Component Analysis (PCA)
 - Hierarchical Cluster Analysis (HCA)
 
@@ -33,7 +33,7 @@ The software provides a comprehensive set of tools for experimental design, patt
 - PCR-DA
 - PLS-DA
 
-## Data Analysis Tools
+## Auxiliary Features
 - Leave-one-out cross-validation
 - Test set selection
 - Data plotting
