@@ -5,34 +5,31 @@ permalink: /pt/softwares/
 author_profile: false
 ---
 
-O **LAQUALI** desenvolve ferramentas computacionais gratuitas para quimiometria, planejamento experimental, análise multivariada de dados e avaliação sensorial.
+O LAQUALI desenvolve ferramentas computacionais **gratuitas** para quimiometria, planejamento de experimentos, análise multivariada de dados e avaliação sensorial.
 
 ## maRS
 
-O **maRS** é um software que fornece ferramentas para análise multivariada de dados, incluindo reconhecimento de padrões, classificação e regressão.
+O **maRS** é uma ferramenta para análise multivariada e análise quimiométrica de dados.
 
 [Saiba mais sobre o maRS →](/pt/mars/)
 
----
 
 ## DesignERS
 
-O **DesignERS** é um software desenvolvido para planejamento experimental e otimização.
+O **DesignERS** é uma ferramenta para planejamento e otimização de experimentos.
 
 [Saiba mais sobre o DesignERS →](/pt/designers/)
 
----
 
 ## Chemoface
 
-O **Chemoface** é um software para análise quimiométrica e planejamento experimental.
+O **Chemoface** é uma ferramenta para análise quimiométrica e planejamento de experimentos.
 
 [Saiba mais sobre o Chemoface →](/pt/chemoface/)
 
----
 
 ## SensoMaker
 
-O **SensoMaker** é um software para aquisição e análise de dados de testes sensoriais.
+O **SensoMaker** é uma ferramenta para aquisição e análise de dados de testes sensoriais.
 
 [Saiba mais sobre o SensoMaker →](/pt/sensomaker/)
