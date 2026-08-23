@@ -20,3 +20,24 @@ LAQUALI focuses on developing and applying innovative analytical methods to ensu
 * Food and beverage quality assessment
 * Authenticity and fraud detection
 * Agricultural product safety and characterization
+
+
+LAQUALI develops **free** computational tools for chemometrics, experimental design, multivariate data analysis, and sensory evaluation.
+
+## maRS
+
+**maRS** is a software tool designed for multivariate analysis and chemometric data processing.
+
+[Learn more about maRS →](https://laquali-ufla.github.io/mars/)
+
+## DesignERS
+
+**DesignERS** is a software tool for experimental design and process optimization.
+
+[Learn more about DesignERS →](https://laquali-ufla.github.io/designers/)
+
+## Chemoface
+
+**Chemoface** is a software tool for chemometric analysis and experimental design.
+
+[Learn more about Chemoface →](https://laquali-ufla.github.io/chemoface/)
