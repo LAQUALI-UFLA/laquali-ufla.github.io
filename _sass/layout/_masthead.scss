@@ -80,30 +80,35 @@
 }
 
 .language-switcher {
-  white-space: nowrap !important;
   display: inline-block !important;
+  white-space: nowrap !important;
   width: auto !important;
-  margin-left: 10px;
+  margin-left: 12px;
   padding: 0 !important;
   font-size: 0.85em;
-  line-height: inherit;
-  vertical-align: baseline;
+  line-height: 1;
+  vertical-align: middle;
+  position: relative;
+  top: 1px;
 }
 
 .language-switcher a,
-.language-switcher strong,
 .language-switcher span {
-  display: inline;
-  line-height: inherit;
-  vertical-align: baseline;
+  display: inline !important;
+  white-space: nowrap !important;
+  vertical-align: middle;
+  line-height: 1;
 }
 
-.language-switcher span {
+.language-switcher .separator {
   margin-left: 4px;
   margin-right: 4px;
   opacity: 0.6;
 }
 
+.language-switcher .current-lang {
+  font-weight: 700;
+}
 .language-switcher span {
   margin: 0 3px;
   opacity: 0.6;
