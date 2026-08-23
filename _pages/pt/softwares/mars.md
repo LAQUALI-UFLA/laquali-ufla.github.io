@@ -1,5 +1,5 @@
 ---
-permalink: /pt/softwares/mars/
+permalink: /pt/mars/
 title: "maRS"
 author_profile: false
 ---
