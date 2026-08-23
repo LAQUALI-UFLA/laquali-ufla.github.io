@@ -57,8 +57,13 @@ SensoMaker is available for Microsoft Windows (32-bit and 64-bit).
 
 2. Download and install **SensoMaker**:
 
-   [Download SensoMaker (v1.95)](https://www.dropbox.com/scl/fi/c0pm7d3pmj1pxgwg72zz8/SensoMaker_1-95_setup.exe?rlkey=heioj2fz25fw4b3jmh8iarzl7&st=fniip3bb&dl=1)
-
+   <a href="https://www.dropbox.com/scl/fi/c0pm7d3pmj1pxgwg72zz8/SensoMaker_1-95_setup.exe?rlkey=heioj2fz25fw4b3jmh8iarzl7&st=fniip3bb&dl=1"
+       onclick="gtag('event', 'download_software', {
+         software: 'SensoMaker'
+       });">
+      Download SensoMaker (v1.95)
+    </a>
+   
 ## Running SensoMaker
 The different SensoMaker modules can be accessed from the software's home screen.
 
