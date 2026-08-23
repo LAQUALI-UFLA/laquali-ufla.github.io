@@ -52,16 +52,10 @@
     clear: both;
     list-style-type: none;
   }
-
-  /* Prevent navigation line breaks when menu items expand */
-  .greedy-nav .visible-links {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
 }
 
 .masthead__menu-item {
+  display: inline-block;
   background-color: var(--global-bg-color);
   list-style-type: none;
   white-space: nowrap;
@@ -85,26 +79,25 @@
   }
 }
 
-/* Compact language switcher pinned to the far right */
+/* Compact language switcher */
 .language-switcher {
-  margin-left: auto;
-  padding: 0 0 0 1em;
-  display: inline-flex;
-  align-items: center;
+  display: inline-block;
+  margin-left: 1em;
+  padding: 0;
   white-space: nowrap;
 
   a,
   span {
-    display: inline-block;
+    display: inline;
     padding: 0;
     margin: 0;
-    line-height: 1;
+    line-height: inherit;
     border: none;
     font-size: 0.9em;
   }
 
   a {
-    padding: 2px 3px;
+    padding: 0 2px;
 
     &:hover {
       border: none;
