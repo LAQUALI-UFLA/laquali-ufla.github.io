@@ -59,7 +59,12 @@ O Chemoface está disponível para Microsoft Windows (32 e 64 bits).
 
 1. Baixe e instale o **MATLAB Compiler Runtime (MCR)**:
 
-   [Baixar MCR (v7.16)](https://www.dropbox.com/scl/fi/413gsdj747myotqo7m77u/MCRInstaller.exe?rlkey=wb6u5iir8zd9d1mlqdf0thwnx&st=82y878m8&dl=1)
+   <a href="https://www.dropbox.com/scl/fi/413gsdj747myotqo7m77u/MCRInstaller_7-16.exe?rlkey=wb6u5iir8zd9d1mlqdf0thwnx&st=svw1zpbt&dl=1"
+       onclick="gtag('event', 'download_software', {
+         software: 'MCR'
+       });">
+      Baixar MCR (v7.16)
+    </a>
 
 2. Baixe e instale o **Chemoface**:
 
@@ -67,7 +72,7 @@ O Chemoface está disponível para Microsoft Windows (32 e 64 bits).
        onclick="gtag('event', 'download_software', {
          software: 'Chemoface'
        });">
-      Download Chemoface  (v1.75)
+      Baixar Chemoface  (v1.75)
     </a>
 
 ## Executando o Chemoface
