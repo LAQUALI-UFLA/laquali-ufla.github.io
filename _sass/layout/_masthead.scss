@@ -80,18 +80,24 @@
 }
 
 .language-switcher {
+  display: inline-block !important;
   white-space: nowrap !important;
-  padding-left: 15px !important;
-  padding-right: 10px !important;
+  width: auto !important;
+  min-width: 55px;
+  margin-left: 10px;
+  padding: 0 !important;
   font-size: 0.85em;
-
-  a {
-    text-decoration: none;
-  }
-
-  span {
-    margin: 0 4px;
-    opacity: 0.6;
-  }
+  vertical-align: middle;
 }
 
+.language-switcher a,
+.language-switcher strong,
+.language-switcher span {
+  display: inline !important;
+  white-space: nowrap !important;
+}
+
+.language-switcher span {
+  margin: 0 3px;
+  opacity: 0.6;
+}
