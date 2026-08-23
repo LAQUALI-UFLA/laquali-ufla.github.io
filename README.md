@@ -41,3 +41,9 @@ LAQUALI develops **free** computational tools for chemometrics, experimental des
 **Chemoface** is a software tool for chemometric analysis and experimental design.
 
 [Learn more about Chemoface →](https://laquali-ufla.github.io/chemoface/)
+
+## SensoMaker
+
+**SensoMaker** is a software tool for the acquisition and analysis of sensory test data.
+
+[Learn more about SensoMaker →](https://laquali-ufla.github.io/sensomaker/)
