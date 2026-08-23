@@ -399,3 +399,21 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Alinha o contêiner principal (#main) com as margens do masthead */
+#main {
+  max-width: $x-large;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* Remove a reserva de espaço da sidebar nas páginas sem barra lateral */
+.page {
+  @include breakpoint($large) {
+    width: 100%;
+    float: none;
+    padding-right: 0;
+  }
+}
