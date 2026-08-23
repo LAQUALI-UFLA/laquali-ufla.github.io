@@ -7,6 +7,8 @@ author_profile: false
 
 O LAQUALI desenvolve ferramentas computacionais **gratuitas** para quimiometria, planejamento de experimentos, análise multivariada de dados e avaliação sensorial.
 
+Todos os softwares possuem uma **interface amigável e intuitiva**, tornando os métodos implementados fáceis de utilizar por usuários familiarizados com os conceitos e técnicas envolvidos.
+
 ## maRS
 
 O **maRS** é uma ferramenta para análise multivariada e análise quimiométrica de dados.
