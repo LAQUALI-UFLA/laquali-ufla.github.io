@@ -4,6 +4,6 @@ title: "maRS"
 author_profile: false
 ---
 
-# maRS
+O maRS oferece ferramentas para análise multivariada de dados, incluindo análise exploratória, classificação, regressão e outras aplicações analíticas relacionadas.
 
-O **maRS** fornece ferramentas para análise multivariada de dados, incluindo reconhecimento de padrões, classificação, regressão e outras aplicações analíticas.
+Em breve, estarão disponíveis mais informações sobre o software, incluindo suas funcionalidades, aplicações e opções de download.
