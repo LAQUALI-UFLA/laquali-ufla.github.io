@@ -1,6 +1,6 @@
 ---
 permalink: /pt/sensomaker/
-title: "sensomaker"
+title: "Sensomaker"
 author_profile: false
 ---
 
