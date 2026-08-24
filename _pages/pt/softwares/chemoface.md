@@ -1,6 +1,6 @@
 ---
 permalink: /pt/chemoface/
-title: "chemoface"
+title: "Chemoface"
 author_profile: false
 ---
 
