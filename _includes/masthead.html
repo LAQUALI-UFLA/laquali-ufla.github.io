@@ -46,11 +46,19 @@
           <!-- LANGUAGE -->
           <li class="masthead__menu-item language-switcher persist">
             {% if page.url contains '/pt/' %}
-              <a href="{{ page.url | remove_first: '/pt' }}" aria-label="English" title="English">🇺🇸</a>
-              <a href="#" class="current-language" aria-label="Português" title="Português">🇧🇷</a>
+              <a href="{{ page.url | remove_first: '/pt' }}" title="English">
+                <img src="https://flagcdn.com/w40/us.png" alt="English">
+              </a>
+              <a href="#" class="current-language" title="Português">
+                <img src="https://flagcdn.com/w40/br.png" alt="Português">
+              </a>
             {% else %}
-              <a href="#" class="current-language" aria-label="English" title="English">🇺🇸</a>
-              <a href="/pt{{ page.url }}" aria-label="Português" title="Português">🇧🇷</a>
+              <a href="#" class="current-language" title="English">
+                <img src="https://flagcdn.com/w40/us.png" alt="English">
+              </a>
+              <a href="/pt{{ page.url }}" title="Português">
+                <img src="https://flagcdn.com/w40/br.png" alt="Português">
+              </a>
             {% endif %}
           </li>
 
