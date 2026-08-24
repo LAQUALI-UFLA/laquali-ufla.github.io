@@ -46,9 +46,11 @@
           <!-- LANGUAGE -->
           <li class="masthead__menu-item language-switcher persist">
             {% if page.url contains '/pt/' %}
-              <a href="{{ page.url | remove_first: '/pt' }}">EN</a><span>|</span><a href="#" class="current-language">PT</a>
+              <a href="{{ page.url | remove_first: '/pt' }}" aria-label="English" title="English">🇺🇸</a>
+              <a href="#" class="current-language" aria-label="Português" title="Português">🇧🇷</a>
             {% else %}
-              <a href="#" class="current-language">EN</a><span>|</span><a href="/pt{{ page.url }}">PT</a>
+              <a href="#" class="current-language" aria-label="English" title="English">🇺🇸</a>
+              <a href="/pt{{ page.url }}" aria-label="Português" title="Português">🇧🇷</a>
             {% endif %}
           </li>
 
