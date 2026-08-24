@@ -88,15 +88,24 @@
   a {
     display: inline-block !important;
     padding: 0 !important;
-    margin: 0 3px !important;
-    line-height: 1 !important;
+    margin: 0 4px !important;
     vertical-align: middle;
     text-decoration: none;
-    font-size: 1.15em;
-  }
+    opacity: 0.4;
+    transition: opacity 0.2s ease;
 
-  .current-language {
-    font-weight: 700;
+    &:hover,
+    &.current-language {
+      opacity: 1;
+    }
+
+    img {
+      display: inline-block;
+      width: 20px;
+      height: auto;
+      border-radius: 2px;
+      vertical-align: middle;
+    }
   }
 }
 
