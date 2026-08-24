@@ -101,8 +101,9 @@
 
     img {
       display: inline-block;
-      width: 20px;
-      height: auto;
+      width: 22px;
+      height: 15px;
+      object-fit: cover; /* Recorta suavemente para manter proporções idênticas */
       border-radius: 2px;
       vertical-align: middle;
     }
