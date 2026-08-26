@@ -165,6 +165,9 @@ include:
   - .htaccess
   - _pages
   - files
+  - "maRS/install_win.ps1"
+  - "maRS/uninstall_win.ps1"
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -360,6 +363,3 @@ compress_html:
   ignore:
     envs: development
 
-include:
-  - "maRS/install_win.ps1"
-  - "maRS/uninstall_win.ps1"
