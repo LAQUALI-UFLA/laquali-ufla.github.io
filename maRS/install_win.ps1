@@ -1,5 +1,5 @@
 $AppName = "maRS"
-$ZipUrl = "https://www.dropbox.com/scl/fi/qe30aquop4vqrc0goqxvp/maRS.zip?rlkey=zuk59ly0nfu0wg836fkkel2ou&st=kk4t4wst&dl=1"
+$ZipUrl = "https://laquali-ufla.github.io/maRS_install.zip"
 $InstallDir = "$env:LOCALAPPDATA\Programs\$AppName"
 $StartMenuDir = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\$AppName"
 $DesktopDir = [Environment]::GetFolderPath("Desktop")
