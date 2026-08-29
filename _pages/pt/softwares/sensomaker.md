@@ -54,19 +54,13 @@ O SensoMaker está disponível para Microsoft Windows (32 e 64 bits).
 
 1. Baixe e instale o **MATLAB Compiler Runtime (MCR)**:
 
-   <a href="https://www.dropbox.com/scl/fi/413gsdj747myotqo7m77u/MCRInstaller_7-16.exe?rlkey=wb6u5iir8zd9d1mlqdf0thwnx&st=svw1zpbt&dl=1"
-       onclick="gtag('event', 'download_software', {
-         software: 'MCR'
-       });">
+   <a href="https://www.dropbox.com/scl/fi/413gsdj747myotqo7m77u/MCRInstaller_7-16.exe?rlkey=wb6u5iir8zd9d1mlqdf0thwnx&st=svw1zpbt&dl=1">
       Baixar MCR (v7.16)
     </a>
     
 3. Baixe e instale o **SensoMaker**:
 
-   <a href="https://www.dropbox.com/scl/fi/c0pm7d3pmj1pxgwg72zz8/SensoMaker_1-95_setup.exe?rlkey=heioj2fz25fw4b3jmh8iarzl7&st=fniip3bb&dl=1"
-       onclick="gtag('event', 'download_software', {
-         software: 'SensoMaker'
-       });">
+   <a href="https://www.dropbox.com/scl/fi/c0pm7d3pmj1pxgwg72zz8/SensoMaker_1-95_setup.exe?rlkey=heioj2fz25fw4b3jmh8iarzl7&st=fniip3bb&dl=1">
       Baixar SensoMaker (v1.95)
     </a>
 
