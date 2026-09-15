@@ -64,8 +64,8 @@ Chemoface is available for Microsoft Windows (32-bit and 64-bit).
     
 2. Download and install **Chemoface**:
 
-   <a href="https://www.dropbox.com/scl/fi/n3pdipmvvezxh7scecxkc/Chemoface_1-75_setup.exe?rlkey=34c235rt601ojo8lxgtl8iwak&st=w7hmvv9f&dl=1">
-      Download Chemoface  (v1.75)
+   <a href="https://www.dropbox.com/scl/fi/7xs4czzvm35juc6kxk24u/Chemoface_1-76_setup.exe?rlkey=dh815ymvci4km3xq0ersq48un&st=u9yvmx02&dl=1">
+      Download Chemoface  (v1.76)
     </a>
   
 ## Running Chemoface
