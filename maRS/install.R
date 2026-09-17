@@ -1,4 +1,0 @@
-options(repos = c(CRAN = "https://cloud.r-project.org"))
-if (!require("remotes", quietly = TRUE)) install.packages("remotes")
-remotes::install_url("https://laquali-ufla.github.io/maRS_inst_pkg.zip",upgrade = "always")
-library(maRS)
