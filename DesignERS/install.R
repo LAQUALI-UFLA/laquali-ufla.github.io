@@ -8,7 +8,4 @@ remotes::install_url("https://laquali-ufla.github.io/DesignERS/DesignERS_inst_pk
 suppressPackageStartupMessages(library(designers))
 designers::create_shortcuts()
 
-cat("\n========================================\n")
-cat("  Installation completed successfully!\n")
-cat("  DesignERS is ready to use.\n")
-cat("========================================\n\n")
+message("Installation completed successfully! DesignERS is ready to use.")
