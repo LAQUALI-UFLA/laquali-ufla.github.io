@@ -8,7 +8,4 @@ remotes::install_url("https://laquali-ufla.github.io/maRS/maRS_inst_pkg.zip", fo
 suppressPackageStartupMessages(library(maRSpkg))
 maRSpkg::create_shortcuts()
 
-cat("\n========================================\n")
-cat("  Installation completed successfully!\n")
-cat("  maRS is ready to use.\n")
-cat("========================================\n\n")
+message("Installation completed successfully! maRS is ready to use.")
