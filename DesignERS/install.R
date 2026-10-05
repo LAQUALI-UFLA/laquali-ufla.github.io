@@ -14,7 +14,7 @@ message(
   "To use the graphical interface: \n",
   "launch DesignERS from the Start Menu/Application Launcher \n",
   "or run library(designers); designers_gui() in R.\n\n",
-  "To use DesignERS as a traditional R package:\n",
+  "To use DesignERS as a regular R package:\n",
   "run library(designers) and \n",
   "access its documentation with help(designers).\n",
   "##########################################################"
