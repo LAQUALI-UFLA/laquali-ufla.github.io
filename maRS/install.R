@@ -14,7 +14,7 @@ message(
   "To use the graphical interface: \n",
   "launch maRS from the Start Menu/Application Launcher \n",
   "or run library(maRSpkg); mars_gui() in R.\n\n",
-  "To use maRS as a traditional R package:\n",
+  "To use maRS as a regular R package:\n",
   "run library(maRSpkg) and \n",
   "access its documentation with help(maRSpkg).\n",
   "##########################################################"
