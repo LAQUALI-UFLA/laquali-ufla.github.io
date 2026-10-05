@@ -8,4 +8,14 @@ remotes::install_url("https://laquali-ufla.github.io/DesignERS/DesignERS_inst_pk
 
 designers::create_shortcuts()
 
-message("Installation completed successfully! DesignERS is ready to use.")
+message(
+  "########################################################## \n",
+  "Installation completed successfully! DesignERS is ready to use. \n\n",
+  "To use the graphical interface: \n",
+  "launch DesignERS from the Start Menu/Application Launcher \n",
+  "or run library(designers); designers_gui() in R.\n\n",
+  "To use DesignERS as a traditional R package:\n",
+  "run library(designers) and \n",
+  "access its documentation with help(designers).\n",
+  "##########################################################"
+)
