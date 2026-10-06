@@ -7,7 +7,7 @@ author_profile: false
   <img src="{{ '/images/logo_DesignERS.png' | relative_url }}" alt="DesignERS Logo" width="100">
 </p>
 
-**DesignERS provides tools for generating and analyzing experimental designs for screening, response surface methodology, and mixture studies.**
+**DesignERS is an R package with a user-friendly interface and tools for generating and analyzing experimental designs for screening, response surface methodology, and mixture studies.**
 
 ## Main Features
 - Full Factorial Design
