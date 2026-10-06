@@ -26,7 +26,7 @@ author_profile: false
 ## Installation
 DesignERS is an R-based application that works on Windows, Linux, and macOS.
 
-1. Download and install **R** (https://www.r-project.org/)
+1. Download and install R (version 4.4 or later) from https://www.r-project.org/
 2. Open R and run:
 
 ```r
@@ -36,14 +36,14 @@ source("https://laquali-ufla.github.io/DesignERS/install.R")
 ## Running DesignERS
 DesignERS can be accessed through either its graphical interface or as a regular R package.
 
-**Graphical interface:** Launch DesignERS from the shortcut available in the Start Menu or Application Launcher, or start the graphical interface from R with:
+**Graphical interface:** Launch DesignERS from the shortcut (icon <img src="/images/logo_DesignERS.png" height="22">) available in the Start Menu or Application Launcher, or start the graphical interface from R with:
 
 ```r
 library(designers)
 designers_gui()
 ```
 > **Note:**  
-> When DesignERS is running locally, your web browser may deactivate inactive tabs to reduce memory usage. If the DesignERS tab becomes inactive after a period without interaction, add the local DesignERS address to your browser's list of sites that should remain active (if this option is available).
+> When DesignERS is running, your web browser may deactivate inactive tabs to reduce memory usage. If the DesignERS tab becomes inactive after a period without interaction, add the local DesignERS address to your browser's list of sites that should remain active (if this option is available).
 > 
 > - **Google Chrome / Chromium / Microsoft Edge:** Open your browser, go to **Settings → Performance → Always keep these sites active → Add site**, and add `http://127.0.0.1`.
 > - Other browsers may use different mechanisms for managing inactive tabs.
