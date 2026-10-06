@@ -8,16 +8,14 @@ author_profile: false
   <img src="{{ '/images/logo_chemoface.png' | relative_url }}" alt="Logo do Chemoface" width="100">
 </p>
 
-**O Chemoface é um software gratuito e de fácil utilização para análise quimiométrica e otimização de experimentos.**
-
-O software oferece um conjunto abrangente de ferramentas para planejamento e otimização de experimentos, análise exploratória, calibração multivariada, classificação e pré-processamento de dados.
+**O Chemoface é um software de fácil utilização para análise de dados multivariados, com ferramentas para análise exploratória, calibração multivariada, classificação, pré-processamento de dados e planejamento experimental.**
 
 ## Planejamento e Otimização de Experimentos
-- Planejamento fatorial completo
-- Planejamento fatorial fracionário
-- Planejamento composto central
+- Planejamento Fatorial Completo
+- Planejamento Fatorial Fracionário
+- Planejamento Composto Central
 - Planejamento de Plackett–Burman
-- Planejamento de misturas
+- Planejamento de Misturas
 - Função de desejabilidade
 
 ## Análise Exploratória
