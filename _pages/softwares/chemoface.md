@@ -7,9 +7,7 @@ author_profile: false
   <img src="{{ '/images/logo_chemoface.png' | relative_url }}" alt="Chemoface Logo" width="100">
 </p>
 
-**Chemoface is a free, user-friendly software for chemometric analysis and experimental design.**
-
-The software provides a comprehensive set of tools for experimental design, exploratory analysis, multivariate calibration, classification, and data preprocessing.
+**Chemoface is free, user-friendly software for chemometric analysis and experimental design, with tools for exploratory analysis, multivariate calibration, classification, data preprocessing, and experimental design.**
 
 ## Design of Experiments
 - Full factorial design
