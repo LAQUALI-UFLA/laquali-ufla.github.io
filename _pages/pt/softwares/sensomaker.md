@@ -8,9 +8,7 @@ author_profile: false
   <img src="{{ '/images/logo_sensomaker.png' | relative_url }}" alt="Logo do SensoMaker" width="100">
 </p>
 
-**O SensoMaker é uma ferramenta para aquisição e análise de dados de testes sensoriais.**
-
-O software oferece um conjunto abrangente de ferramentas para aquisição de dados sensoriais, mapas de preferência, testes discriminativos, análise sensorial temporal, análise multivariada e avaliação estatística.
+**O SensoMaker é um software de fácil utilização para aquisição e análise de dados de testes sensoriais, com ferramentas para aquisição de dados, mapeamento de preferência, testes discriminativos, análise sensorial temporal, análise multivariada e avaliação estatística.**
 
 ## Aquisição de Dados
 - Escala categórica
