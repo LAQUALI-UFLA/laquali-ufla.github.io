@@ -7,7 +7,7 @@ author_profile: false
   <img src="{{ '/images/logo_sensomaker.png' | relative_url }}" alt="Sensomaker Logo" width="100">
 </p>
 
-**SensoMaker is user-friendly software for the acquisition and analysis of sensory test data, with tools for data acquisition, preference mapping, discrimination testing, temporal sensory analysis, multivariate analysis, and statistical evaluation.**
+**SensoMaker is user-friendly software for sensory data acquisition and analysis, supporting sensory testing, preference mapping, temporal sensory analysis, discrimination testing, statistical evaluation, and multivariate analysis.**
 
 ## Data Acquisition
 - Categorical scale
