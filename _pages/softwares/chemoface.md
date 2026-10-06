@@ -7,14 +7,14 @@ author_profile: false
   <img src="{{ '/images/logo_chemoface.png' | relative_url }}" alt="Chemoface Logo" width="100">
 </p>
 
-**Chemoface is free, user-friendly software for chemometric analysis and experimental design, with tools for exploratory analysis, multivariate calibration, classification, data preprocessing, and experimental design.**
+**Chemoface is user-friendly software for multivariate data analysis, with tools for exploratory analysis, multivariate calibration, classification, data preprocessing, and experimental design.**
 
 ## Design of Experiments
-- Full factorial design
-- Fractional factorial design
-- Central composite design
-- Plackett–Burman design
-- Mixture design
+- Full Factorial Design
+- Fractional Factorial Design
+- Central Composite Design
+- Plackett–Burman Design
+- Mixture Design
 - Desirability function
 
 ## Exploratory Analysis
