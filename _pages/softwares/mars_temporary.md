@@ -10,19 +10,21 @@ author_profile: false
 **maRS is an R package with a user-friendly interface and tools for multivariate data analysis, including pattern recognition, classification, regression, and other related analytical applications.**
 
 ## Main Features
-- Signal preprocessing (MSC, SNV, L1/L2 norm, Savitzky–Golay)
-- Class oversampling for imbalanced data (SMOTE and ADASYN)
-- Interactive line and profile plotting
+- Signal preprocessing (MSC, SNV, L1/L2 normalization, and Savitzky–Golay)
+- Class oversampling for imbalanced datasets (SMOTE and ADASYN)
 - Hierarchical Cluster Analysis (HCA)
 - Principal Component Analysis (PCA) with 2D and 3D visualization
 - Projection of supplementary rows and columns in PCA
 - One-class classification (SIMCA, DD-SIMCA, and Robust DD-SIMCA)
-- Multiple Linear Regression (MLR and MLR-DA)
-- Partial Least Squares (PLS and PLS-DA)
-- Variable selection algorithms (iPLS and BVE-PLS)
-- Sample set partitioning (Kennard-Stone, SPXY, and Randomized)
-- Model diagnostics, parity plots, and variable importance
+- Multiple Linear Regression Discriminant Analysis (MLR-DA)
+- Partial Least Squares Discriminant Analysis (PLS-DA)
+- Multiple Linear Regression (MLR)
+- Partial Least Squares Regression (PLS)
+- Variable selection algorithms (iPLS/iPLS-DA and BVE-PLS/BVE-PLS-DA)
+- Sample set partitioning (Kennard–Stone, SPXY, and random selection)
+- Model diagnostics, predicted-versus-observed plots, and variable importance
 - External sample prediction and model export
+- Interactive plots
 
 ## Installation
 maRS is an R-based application that works on Windows, Linux, and macOS.
