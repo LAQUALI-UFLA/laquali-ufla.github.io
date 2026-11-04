@@ -36,7 +36,7 @@ source("https://laquali-ufla.github.io/DesignERS/install.R")
 ## Running DesignERS
 DesignERS can be accessed through either its graphical interface or as a regular R package.
 
-**To use with the graphical user interface:** Launch DesignERS from the shortcut icon <img src="/images/logo_DesignERS.png" style="height: 22px; width: auto; vertical-align: middle;"> available in the Start Menu or Application Launcher, or start the graphical interface from R with:
+**To use with the graphical interface:** Launch DesignERS from the shortcut icon <img src="/images/logo_DesignERS.png" style="height: 22px; width: auto; vertical-align: middle;"> available in the Start Menu or Application Launcher, or start the graphical interface from R with:
 
 ```r
 library(designers)
