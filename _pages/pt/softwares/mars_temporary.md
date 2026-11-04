@@ -28,6 +28,9 @@ author_profile: false
 - Predição de amostras externas e exportação de modelos
 - Gráficos interativos
 
+## Capturas de tela
+[Ver capturas de tela do maRS →](/pt/mars_screenshots/)
+
 ## Instalação
 
 O maRS é uma aplicação baseada em R que funciona em Windows, Linux e macOS.
