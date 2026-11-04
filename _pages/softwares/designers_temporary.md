@@ -23,7 +23,7 @@ author_profile: false
 - Diagnostic plotting
 - Response surface visualization
 ## Screenshots
-[View DesignERS Screenshots]({{ '/designers_screenshots/' | relative_url }})
+[View DesignERS Screenshots →](/designers_screenshots/)
 
 ## Installation
 DesignERS is an R-based application that works on Windows, Linux, and macOS.
