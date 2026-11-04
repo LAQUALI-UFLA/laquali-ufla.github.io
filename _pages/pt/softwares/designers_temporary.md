@@ -25,6 +25,9 @@ author_profile: false
 - Gráficos de diagnóstico
 - Visualização de superfícies de resposta
 
+## Capturas de tela
+[Ver capturas de tela do DesignERS →](/pt/designers_screenshots/)
+
 ## Instalação
 
 O DesignERS é uma aplicação baseada em R que funciona em Windows, Linux e macOS.
