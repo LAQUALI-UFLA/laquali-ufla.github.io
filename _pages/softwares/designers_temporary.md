@@ -22,8 +22,9 @@ author_profile: false
 - ANOVA evaluation
 - Diagnostic plotting
 - Response surface visualization
+
 ## Screenshots
-[View DesignERS Screenshots →](/designers_screenshots/)
+[View DesignERS screenshots →](/designers_screenshots/)
 
 ## Installation
 DesignERS is an R-based application that works on Windows, Linux, and macOS.
