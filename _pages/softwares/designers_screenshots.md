@@ -32,5 +32,4 @@ author_profile: false
 </p>
 
 ---
-
-[← Back to DesignERS]({{ '/designers/' | relative_url }})
+[← Back to DesignERS](/designers/)
