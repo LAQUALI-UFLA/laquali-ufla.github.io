@@ -12,18 +12,18 @@ author_profile: false
 
 ## Principais recursos
 
-* Planejamento Fatorial Completo
-* Planejamento Fatorial Fracionário
-* Planejamento de Plackett–Burman
-* Planejamento de Face Centrada
-* Planejamento Composto Central
-* Planejamentos de Misturas com três componentes
-* Função de desejabilidade multiobjetivo
-* Modelagem estatística
-* Refinamento de modelos
-* Avaliação por ANOVA
-* Gráficos de diagnóstico
-* Visualização de superfícies de resposta
+- Planejamento Fatorial Completo
+- Planejamento Fatorial Fracionário
+- Planejamento de Plackett–Burman
+- Planejamento de Face Centrada
+- Planejamento Composto Central
+- Planejamentos de Misturas com três componentes
+- Função de desejabilidade multiobjetivo
+- Modelagem estatística
+- Refinamento de modelos
+- Avaliação por ANOVA
+- Gráficos de diagnóstico
+- Visualização de superfícies de resposta
 
 ## Instalação
 
