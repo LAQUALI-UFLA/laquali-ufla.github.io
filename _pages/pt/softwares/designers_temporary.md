@@ -1,6 +1,6 @@
 ---
 permalink: /pt/designers_temporary/
-title: "designers"
+title: "DesignERS"
 author_profile: false
 ---
 
