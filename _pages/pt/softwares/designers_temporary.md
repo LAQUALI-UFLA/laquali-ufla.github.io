@@ -40,7 +40,7 @@ source("https://laquali-ufla.github.io/DesignERS/install.R")
 
 O DesignERS pode ser utilizado por meio de sua interface gráfica ou como um pacote R convencional.
 
-**Interface gráfica:** Inicie o DesignERS pelo ícone <img src="/images/logo_DesignERS.png" style="height: 22px; width: auto; vertical-align: middle;"> disponível no Menu Iniciar ou no Lançador de Aplicativos, ou inicie a interface gráfica pelo R com:
+**Para usar com interface gráfica:** Inicie o DesignERS pelo ícone <img src="/images/logo_DesignERS.png" style="height: 22px; width: auto; vertical-align: middle;"> disponível no Menu Iniciar ou no Lançador de Aplicativos, ou inicie a interface gráfica pelo R com:
 
 ```r
 library(designers)
@@ -53,7 +53,7 @@ designers_gui()
 > * **Google Chrome / Chromium / Microsoft Edge:** Abra o navegador e acesse **Configurações → Desempenho → Sempre manter estes sites ativos → Adicionar site** e adicione `http://127.0.0.1`.
 > * Outros navegadores podem utilizar mecanismos diferentes para gerenciar abas inativas.
 
-**Pacote R convencional:** Utilize o DesignERS como um pacote R convencional e acesse sua documentação com:
+**Para usar como pacote R convencional:** Utilize o DesignERS como um pacote R convencional e acesse sua documentação com:
 
 ```r
 library(designers)
