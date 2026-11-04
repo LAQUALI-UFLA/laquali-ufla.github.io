@@ -26,6 +26,9 @@ author_profile: false
 - External sample prediction and model export
 - Interactive plots
 
+## Screenshots
+[View maRS screenshots →](/mars_screenshots/)
+
 ## Installation
 maRS is an R-based application that works on Windows, Linux, and macOS.
 
