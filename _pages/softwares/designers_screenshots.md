@@ -5,7 +5,7 @@ author_profile: false
 ---
 
 <p align="center">
-  <img src="{{ '/images/screenshots/DesignERS_1.png' | relative_url }}" alt="DesignERS Screenshot 1" width="100%">
+  <img src="{{ '/images/screenshots/DesignERS_1.png' | relative_url }}" alt="DesignERS Screenshot 1" style="width: 100%; max-width: 1280px; height: auto;">
 </p>
 
 <p align="center">
