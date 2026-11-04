@@ -14,7 +14,6 @@ author_profile: false
 
 - Pré-processamento de sinais (MSC, SNV, normas L1/L2 e Savitzky–Golay)
 - Sobreamostragem de classes para dados desbalanceados (SMOTE e ADASYN)
-- Gráficos interativos de linhas e perfis
 - Análise de Agrupamento Hierárquico (HCA)
 - Análise de Componentes Principais (PCA), com visualização em 2D e 3D
 - Projeção de linhas e colunas suplementares em PCA
@@ -27,6 +26,7 @@ author_profile: false
 - Particionamento de conjuntos de amostras (Kennard-Stone, SPXY e aleatorizado)
 - Diagnóstico de modelos, gráficos de valores preditos versus observados e importância das variáveis
 - Predição de amostras externas e exportação de modelos
+- Gráficos interativos
 
 ## Instalação
 
