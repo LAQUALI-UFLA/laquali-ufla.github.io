@@ -41,4 +41,4 @@ author_profile: false
 </p>
 
 ---
-[← Back to DesignERS](/pt/designers/)
+[← Voltar ao DesignERS](/pt/designers/)
