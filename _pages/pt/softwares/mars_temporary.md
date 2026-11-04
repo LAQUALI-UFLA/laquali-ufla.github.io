@@ -12,7 +12,7 @@ author_profile: false
 
 ## Principais recursos
 
-- Pré-processamento de sinais (MSC, SNV, normas L1/L2 e Savitzky–Golay)
+- Pré-processamento de sinais (MSC, SNV, normalização L1/L2 e Savitzky–Golay)
 - Sobreamostragem de classes para dados desbalanceados (SMOTE e ADASYN)
 - Análise de Agrupamento Hierárquico (HCA)
 - Análise de Componentes Principais (PCA), com visualização em 2D e 3D
