@@ -3,9 +3,6 @@ permalink: /designers_screenshots/
 title: "DesignERS – Screenshots"
 author_profile: false
 ---
-<p align="left">
-  <img src="{{ '/images/logo_DesignERS.png' | relative_url }}" alt="DesignERS Logo" width="100">
-</p>
 
 <p align="center">
   <img src="{{ '/images/screenshots/DesignERS_1.png' | relative_url }}" alt="DesignERS Screenshot 1" width="100%">
