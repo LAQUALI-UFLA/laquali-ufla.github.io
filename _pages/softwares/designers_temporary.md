@@ -36,7 +36,7 @@ source("https://laquali-ufla.github.io/DesignERS/install.R")
 ## Running DesignERS
 DesignERS can be accessed through either its graphical interface or as a regular R package.
 
-**Graphical interface:** Launch DesignERS from the shortcut icon <img src="/images/logo_DesignERS.png" style="height: 22px; width: auto; vertical-align: middle;"> available in the Start Menu or Application Launcher, or start the graphical interface from R with:
+**To use with the graphical user interface:** Launch DesignERS from the shortcut icon <img src="/images/logo_DesignERS.png" style="height: 22px; width: auto; vertical-align: middle;"> available in the Start Menu or Application Launcher, or start the graphical interface from R with:
 
 ```r
 library(designers)
@@ -48,7 +48,7 @@ designers_gui()
 > - **Google Chrome / Chromium / Microsoft Edge:** Open your browser, go to **Settings → Performance → Always keep these sites active → Add site**, and add `http://127.0.0.1`.
 > - Other browsers may use different mechanisms for managing inactive tabs.
 
-**Regular R package:** Use DesignERS as a regular R package and access its documentation with:
+**To use as a regular R package:** Use DesignERS as a regular R package and access its documentation with:
 
 ```r
 library(designers)
