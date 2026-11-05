@@ -29,7 +29,7 @@ author_profile: false
 ## Installation
 DesignERS is an R-based application that works on Windows, Linux, and macOS.
 
-1. Download and install R (version 4.4 or later) from [r-project.org](https://www.r-project.org/)
+1. Download and install R (version 4.4 or later) from https://www.r-project.org/
 2. Open R and run:
 
 ```r
