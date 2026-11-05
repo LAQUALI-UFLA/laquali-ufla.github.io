@@ -35,7 +35,7 @@ author_profile: false
 
 O maRS é uma aplicação baseada em R que funciona em Windows, Linux e macOS.
 
-1. Baixe e instale o R (versão 4.4 ou posterior) em https://www.r-project.org/
+1. Baixe e instale o R (versão 4.4 ou posterior) em [r-project.org](https://www.r-project.org/)
 2. Abra o R e execute:
 
 ```r
