@@ -26,7 +26,7 @@ author_profile: false
 ## Screenshots
 [View DesignERS screenshots →](/designers_screenshots/)
 
-## Installation
+## Installing DesignERS
 DesignERS is an R-based application that works on Windows, Linux, and macOS.
 
 1. Download and install R (version 4.4 or later) from [r-project.org](https://www.r-project.org/)
@@ -55,14 +55,14 @@ library(designers)
 help(designers)
 ```
 
-## Uninstall DesignERS
+## Uninstalling DesignERS
 Open R and run:
 
 ```r
 designers::uninstall_designers()
 ```
 
-## Notes
+## Important notes
 - It is recommended to disable automatic translation plugins or browser extensions when using DesignERS. These tools may automatically translate elements of the graphical interface, potentially affecting the display and proper functioning of some application components.
 
 - When DesignERS is running, your web browser may deactivate inactive tabs to reduce memory usage. If the DesignERS tab becomes inactive after a period without interaction, add the local DesignERS address to your browser's list of sites that should remain active (if this option is available).
