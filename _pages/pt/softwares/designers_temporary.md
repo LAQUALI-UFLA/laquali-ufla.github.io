@@ -3,15 +3,13 @@ permalink: /pt/designers_temporary/
 title: "DesignERS"
 author_profile: false
 ---
-
 <p align="left">
   <img src="{{ '/images/logo_DesignERS.png' | relative_url }}" alt="Logo do DesignERS" width="100">
 </p>
 
-**O DesignERS é um pacote R com uma interface de fácil utilização e ferramentas para geração e análise de planejamentos experimentais para triagem, metodologia de superfície de resposta e estudos de misturas.**
+**O DesignERS é um pacote R com uma interface de fácil utilização e ferramentas para geração e análise de planejamentos experimentais para triagem, metodologia de superfície de resposta e experimentos de misturas.**
 
 ## Principais recursos
-
 - Planejamento Fatorial Completo
 - Planejamento Fatorial Fracionário
 - Planejamento de Plackett–Burman
@@ -29,7 +27,6 @@ author_profile: false
 [Ver capturas de tela do DesignERS →](/pt/designers_screenshots/)
 
 ## Instalação
-
 O DesignERS é uma aplicação baseada em R que funciona em Windows, Linux e macOS.
 
 1. Baixe e instale o R (versão 4.4 ou posterior) em [r-project.org](https://www.r-project.org/)
@@ -40,23 +37,18 @@ source("https://laquali-ufla.github.io/DesignERS/install.R")
 ```
 
 ## Execução do DesignERS
-
 O DesignERS pode ser utilizado por meio de sua interface gráfica ou como um pacote R convencional.
 
-**Para usar com interface gráfica:** Inicie o DesignERS pelo ícone <img src="/images/logo_DesignERS.png" style="height: 22px; width: auto; vertical-align: middle;"> disponível no Menu Iniciar ou no Lançador de Aplicativos, ou inicie a interface gráfica pelo R com:
+**- Para usar com interface gráfica através do atalho**, inicie o DesignERS clicando no ícone <img src="/images/logo_DesignERS.png" style="height: 22px; width: auto; vertical-align: middle;"> disponível no Menu Iniciar ou no Lançador de Aplicativos.
+
+**- Para usar com interface gráfica através do R**, use os comandos:
 
 ```r
 library(designers)
 designers_gui()
 ```
 
-> **Observação:**
-> Durante a execução do DesignERS, seu navegador pode desativar abas inativas para reduzir o uso de memória. Se a aba do DesignERS ficar inativa após um período sem interação, adicione o endereço local do DesignERS à lista de sites que devem permanecer ativos no navegador (se essa opção estiver disponível).
->
-> * **Google Chrome / Chromium / Microsoft Edge:** Abra o navegador e acesse **Configurações → Desempenho → Sempre manter estes sites ativos → Adicionar site** e adicione `http://127.0.0.1`.
-> * Outros navegadores podem utilizar mecanismos diferentes para gerenciar abas inativas.
-
-**Para usar como pacote R convencional:** Utilize o DesignERS como um pacote R convencional e acesse sua documentação com:
+**- Para usar como pacote R convencional**, carregue o pacote e acesse sua documentação com:
 
 ```r
 library(designers)
@@ -71,6 +63,15 @@ Abra o R e execute:
 designers::uninstall_designers()
 ```
 
+## Notas
+Durante a execução do DesignERS, seu navegador pode desativar abas inativas para reduzir o uso de memória. Se a aba do DesignERS ficar inativa após um período sem interação, adicione o endereço local do DesignERS à lista de sites que devem permanecer ativos no navegador (se essa opção estiver disponível).
+>
+> - **Google Chrome / Chromium / Microsoft Edge:** Abra o navegador e acesse **Configurações → Desempenho → Sempre manter estes sites ativos → Adicionar site** e adicione `http://127.0.0.1`.
+> - Outros navegadores podem utilizar mecanismos diferentes para gerenciar abas inativas.
+>
+
+No Linux, alguns pacotes do R podem ser instalados a partir do código-fonte e, portanto, exigir bibliotecas adicionais do sistema e ferramentas de desenvolvimento. Se a instalação de algum pacote falhar devido a erros de compilação ou à ausência de bibliotecas do sistema, consulte a documentação da sua distribuição Linux para instalar as dependências indicadas na mensagem de erro e, em seguida, tente instalar o pacote novamente. Se ocorrerem problemas durante a instalação do DesignERS, certifique-se de que os pacotes `shiny`, `rhandsontable` e `htmlwidgets` estejam instalados no R antes de tentar instalar o DesignERS novamente.
+ 
 ## Contato
 **Prof. Cleiton Nunes**  
 Universidade Federal de Lavras – UFLA  
