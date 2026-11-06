@@ -42,19 +42,15 @@ source("https://laquali-ufla.github.io/maRS/install.R")
 ## Running maRS
 maRS can be accessed through either its graphical interface or as a regular R package.
 
-**To use with the graphical interface:** Launch maRS from the shortcut icon <img src="/images/logo_maRS.png" style="height: 22px; width: auto; vertical-align: middle;"> available in the Start Menu or Application Launcher, or start the graphical interface from R with:
+- **To use with the graphical interface from the shortcut**, launch maRS by clicking the shortcut icon <img src="/images/logo_maRS.png" style="height: 22px; width: auto; vertical-align: middle;"> available in the Start Menu or Application Launcher.
 
+- **To use with the graphical interface from R**, start it with:
 ```r
 library(maRSpkg)
 mars_gui()
 ```
-> **Note:**  
-> When maRS is running, your web browser may deactivate inactive tabs to reduce memory usage. If the maRS tab becomes inactive after a period without interaction, add the local maRS address to your browser's list of sites that should remain active (if this option is available).
-> 
-> - **Google Chrome / Chromium / Microsoft Edge:** Open your browser, go to **Settings → Performance → Always keep these sites active → Add site**, and add `http://127.0.0.1`.
-> - Other browsers may use different mechanisms for managing inactive tabs.
 
-**To use as a regular R package:** Use maRS as a regular R package and access its documentation with:
+- **To use as a regular R package**, load the package and access its documentation with:
 
 ```r
 library(maRSpkg)
@@ -67,6 +63,16 @@ Open R and run:
 ```r
 maRSpkg::uninstall_mars()
 ```
+## Notes
+
+- It is recommended to disable automatic translation plugins or browser extensions when using maRS. These tools may automatically translate elements of the graphical interface, potentially affecting the display and proper functioning of some application components.
+
+- When maRS is running, your web browser may deactivate inactive tabs to reduce memory usage. If the maRS tab becomes inactive after a period without interaction, add the local maRS address to your browser's list of sites that should remain active (if this option is available).
+
+  - **Google Chrome / Chromium / Microsoft Edge:** Open your browser, go to **Settings → Performance → Always keep these sites active → Add site**, and add `http://127.0.0.1`.
+  - Other browsers may use different mechanisms for managing inactive tabs.
+
+- On Linux, some R packages may be installed from source and may therefore require additional system libraries and development tools. If a package installation fails due to compilation errors or missing system libraries, refer to your Linux distribution's documentation to install the dependencies indicated in the error message, then try installing the package again. If you experience problems installing maRS, make sure that the `pls`, `scales`, `MASS`, `plot3D`, `car`, `Matrix`, `dendextend`, `shiny`, `readxl`, `writexl`, `officer`, `rvg`, `SMOTEWB`, and `DT` packages are installed in R before attempting to install maRS again.
 
 ## Contact
 **Prof. Cleiton Nunes**  
