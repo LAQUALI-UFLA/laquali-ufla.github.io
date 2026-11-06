@@ -29,7 +29,7 @@ author_profile: false
 ## Screenshots
 [View maRS screenshots →](/mars_screenshots/)
 
-## Installation
+## Installing maRS
 maRS is an R-based application that works on Windows, Linux, and macOS.
 
 1. Download and install R (version 4.4 or later) from [r-project.org](https://www.r-project.org/)
@@ -45,6 +45,7 @@ maRS can be accessed through either its graphical interface or as a regular R pa
 - **To use with the graphical interface from the shortcut**, launch maRS by clicking the shortcut icon <img src="/images/logo_maRS.png" style="height: 22px; width: auto; vertical-align: middle;"> available in the Start Menu or Application Launcher.
 
 - **To use with the graphical interface from R**, start it with:
+
 ```r
 library(maRSpkg)
 mars_gui()
@@ -57,14 +58,14 @@ library(maRSpkg)
 help(maRSpkg)
 ```
 
-## Uninstall maRS
+## Uninstalling maRS
 Open R and run:
 
 ```r
 maRSpkg::uninstall_mars()
 ```
-## Notes
 
+## Important notes
 - It is recommended to disable automatic translation plugins or browser extensions when using maRS. These tools may automatically translate elements of the graphical interface, potentially affecting the display and proper functioning of some application components.
 
 - When maRS is running, your web browser may deactivate inactive tabs to reduce memory usage. If the maRS tab becomes inactive after a period without interaction, add the local maRS address to your browser's list of sites that should remain active (if this option is available).
