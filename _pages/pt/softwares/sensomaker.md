@@ -34,7 +34,7 @@ author_profile: false
   - Teste de Dunnett
   - Teste binomial
 
-- **Ferramentas auxiliares**
+- **Recursos auxiliares**
   - Organização automática dos dados
   - Segmentação de consumidores para mapas de preferência
   - Regressão polinomial
