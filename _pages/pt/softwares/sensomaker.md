@@ -10,40 +10,40 @@ author_profile: false
 
 **O SensoMaker é um software de fácil utilização para aquisição e análise de dados sensoriais, oferecendo suporte a testes sensoriais, mapeamento de preferência, análise sensorial temporal, testes discriminativos, avaliação estatística e análise multivariada.**
 
-## Aquisição de Dados
-- Escala categórica
-- Escala hedônica
-- Escala linear estruturada
-- Escala linear não estruturada
-- Tempo-Intensidade (TI)
-- Dominância Temporal de Sensações (TDS)
-- Testes discriminativos
+- **Aquisição de Dados**
+  - Escala categórica
+  - Escala hedônica
+  - Escala linear estruturada
+  - Escala linear não estruturada
+  - Tempo-Intensidade (TI)
+  - Dominância Temporal de Sensações (TDS)
+  - Testes discriminativos
 
-## Análise de Dados
-- Mapa de Preferência Interno
-- Mapa de Preferência Externo
-- Mapa de Preferência Interno de três vias
-- Mapa de Preferência Externo de três vias
-- Análise gráfica de TI
-- Análise gráfica de TDS
-- Parâmetros de TI
-- Parâmetros de TDS
-- Estatística básica
-- Análise de variância (ANOVA)
-- Teste de Tukey
-- Teste de Dunnett
-- Teste binomial
+- **Análise de Dados**
+  - Mapa de Preferência Interno
+  - Mapa de Preferência Externo
+  - Mapa de Preferência Interno de três vias
+  - Mapa de Preferência Externo de três vias
+  - Análise gráfica de TI
+  - Análise gráfica de TDS
+  - Parâmetros de TI
+  - Parâmetros de TDS
+  - Estatística básica
+  - Análise de variância (ANOVA)
+  - Teste de Tukey
+  - Teste de Dunnett
+  - Teste binomial
 
-## Ferramentas
-- Organização automática dos dados
-- Segmentação de consumidores para mapas de preferência
-- Regressão polinomial
-- Análise de Componentes Principais (PCA)
-- Análise de Correspondência (CA)
-- Análise Hierárquica de Agrupamentos (HCA)
-- Análise Sequencial de Wald
+- **Ferramentas auxiliares**
+  - Organização automática dos dados
+  - Segmentação de consumidores para mapas de preferência
+  - Regressão polinomial
+  - Análise de Componentes Principais (PCA)
+  - Análise de Correspondência (CA)
+  - Análise Hierárquica de Agrupamentos (HCA)
+  - Análise Sequencial de Wald
 
-## Instalação
+## Instalação do SensoMaker
 O SensoMaker foi desenvolvido no ambiente MATLAB.
 
 Como o SensoMaker é uma aplicação independente, não é necessária uma licença do MATLAB para executar o software. No entanto, é necessário instalar o MATLAB Compiler Runtime (MCR). O MCR está disponível gratuitamente e fornece as bibliotecas compartilhadas necessárias para executar aplicações desenvolvidas em MATLAB.
