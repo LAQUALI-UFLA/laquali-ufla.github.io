@@ -9,22 +9,48 @@ author_profile: false
 
 **maRS is an R package with a user-friendly interface and tools for multivariate data analysis, including pattern recognition, classification, regression, and other related analytical applications.**
 
-## Main Features
-- Signal preprocessing (MSC, SNV, L1/L2 normalization, and Savitzky–Golay)
-- Class oversampling for imbalanced datasets (SMOTE and ADASYN)
-- Hierarchical Cluster Analysis (HCA)
-- Principal Component Analysis (PCA) with 2D and 3D visualization
-- Projection of supplementary rows and columns in PCA
-- One-class classification (SIMCA, DD-SIMCA, and Robust DD-SIMCA)
-- Multiple Linear Regression Discriminant Analysis (MLR-DA)
-- Partial Least Squares Discriminant Analysis (PLS-DA)
-- Multiple Linear Regression (MLR)
-- Partial Least Squares Regression (PLS)
-- Variable selection algorithms (iPLS/iPLS-DA and BVE-PLS/BVE-PLS-DA)
-- Sample set partitioning (Kennard–Stone, SPXY, and random selection)
-- Model diagnostics, predicted-versus-observed plots, and variable importance
-- External sample prediction and model export
-- Interactive plots
+- **Data Management, Visualization, and Preprocessing**
+  - File import (.xls, .xlsx, .txt, .dat, .csv)
+  - Definition of calibration and test groups
+  - Signal preprocessing (MSC, SNV, L1/L2 normalization, and Savitzky–Golay)
+  - Class oversampling using the Synthetic Minority Over-sampling Technique (SMOTE)
+  - Class oversampling using Adaptive Synthetic Sampling (ADASYN)
+  - Interactive line and profile plots
+
+- **Exploratory Analysis**
+  - Hierarchical Cluster Analysis (HCA)
+  - Single, Complete, and Average linkage methods in HCA
+  - Cluster-based and k-group coloring in HCA
+  - Principal Component Analysis (PCA)
+  - Projection of supplementary rows and columns in PCA
+  - 2D and 3D Scores, Loadings, and Biplot visualizations in PCA
+  - Confidence ellipses in PCA
+
+- **Multivariate Calibration**
+  - Multiple Linear Regression (MLR)
+  - Partial Least Squares Regression (PLS)
+  - Interval PLS (iPLS), using Forward and Backward strategies
+  - Backward Variable Elimination PLS (BVE-PLS)
+  - Limit of Detection (LOD) calculation
+  - Multiple regression performance metrics
+
+- **Classification**
+  - Soft Independent Modeling of Class Analogy (SIMCA, and DD-SIMCA)
+  - MLR Discriminant Analysis (MLR-DA)
+  - PLS Discriminant Analysis (PLS-DA)
+  - iPLS Discriminant Analysis (iPLS-DA)
+  - BVE-PLS Discriminant Analysis (BVE/PLS-DA)
+  - Fisher Ratio calculation for variables
+  - Multiple classification performance metrics
+
+- **Auxiliary Features**
+  - Sample set partitioning (Kennard–Stone, SPXY, randomized, and manual specification)
+  - Cross-validation methods (Leave-One-Out (LOO), Venetian Blinds, and random k-fold)
+  - y-randomization test
+  - Automatic determination of the optimal number of components or latent variables using the Elbow Method
+  - Outlier detection, model diagnostics, and variable importance plots
+  - Prediction of new datasets
+  - Plot export (PNG, JPEG, TIFF, BMP, SVG, EPS, and PPTX)
 
 ## Screenshots
 [View maRS screenshots →](/mars_screenshots/)
