@@ -28,16 +28,9 @@ author_profile: false
   - Mínimos Quadrados Parciais (PLS)
 
 - **Classificação**
-  - MLR-DA
-  - PCR-DA
-  - PLS-DA
-
-- **Funcionalidades Auxiliares**
-  - Validação cruzada leave-one-out
-  - Seleção do conjunto de teste
-  - Gráficos de dados
-  - Construção de conjuntos de dados a partir de imagens moleculares `.bmp` para MIA-QSAR
-  - Importância da Variável na Projeção (VIP)
+  - Análise discriminante por MLR (MLR-DA)
+  - Análise discriminante por PCR (PCR-DA)
+  - Análise discriminante por PLS (PLS-DA)
 
 - **Pré-processamento**
   - Centralização pela média
@@ -47,6 +40,13 @@ author_profile: false
   - Correção de espalhamento multiplicativo (MSC)
   - Conversão espectral (absorbância/transmitância)
   - Variável Normal Padrão (SNV)
+
+- **Recursos Auxiliares**
+  - Validação cruzada leave-one-out
+  - Seleção do conjunto de teste
+  - Gráficos de dados
+  - Construção de conjuntos de dados a partir de imagens moleculares `.bmp` para MIA-QSAR
+  - Importância da Variável na Projeção (VIP)
 
 ## Instalação do Chemoface
 O Chemoface foi desenvolvido no ambiente MATLAB.
