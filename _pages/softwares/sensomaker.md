@@ -9,40 +9,40 @@ author_profile: false
 
 **SensoMaker is user-friendly software for sensory data acquisition and analysis, supporting sensory testing, preference mapping, temporal sensory analysis, discrimination testing, statistical evaluation, and multivariate analysis.**
 
-## Data Acquisition
-- Categorical scale
-- Hedonic scale
-- Linear structured scale
-- Linear unstructured scale
-- Time-Intensity (TI)
-- Temporal Dominance of Sensations (TDS)
-- Discrimination testing
+- **Data Acquisition**
+  - Categorical scale
+  - Hedonic scale
+  - Linear structured scale
+  - Linear unstructured scale
+  - Time-Intensity (TI)
+  - Temporal Dominance of Sensations (TDS)
+  - Discrimination testing
 
-## Data Analysis
-- Internal Preference Mapping
-- External Preference Mapping
-- Three-way Internal Preference Mapping
-- Three-way External Preference Mapping
-- TI graphical analysis
-- TDS graphical analysis
-- TI parameters
-- TDS parameters
-- Basic statistics
-- Analysis of variance (ANOVA)
-- Tukey's test
-- Dunnett's test
-- Binomial test
+- **Data Analysis**
+  - Internal Preference Mapping
+  - External Preference Mapping
+  - Three-way Internal Preference Mapping
+  - Three-way External Preference Mapping
+  - TI graphical analysis
+  - TDS graphical analysis
+  - TI parameters
+  - TDS parameters
+  - Basic statistics
+  - Analysis of variance (ANOVA)
+  - Tukey's test
+  - Dunnett's test
+  - Binomial test
 
-## Tools
-- Automatic data organization
-- Consumer segmentation for preference mapping
-- Polynomial regression
-- Principal Component Analysis (PCA)
-- Correspondence Analysis (CA)
-- Hierarchical Cluster Analysis (HCA)
-- Sequential Analysis of Wald
+- **Auxiliary Features**
+  - Automatic data organization
+  - Consumer segmentation for preference mapping
+  - Polynomial regression
+  - Principal Component Analysis (PCA)
+  - Correspondence Analysis (CA)
+  - Hierarchical Cluster Analysis (HCA)
+  - Sequential Analysis of Wald
 
-## Installation
+## Installing SensoMaker
 SensoMaker was developed in the MATLAB environment.
 
 Since SensoMaker is a standalone application, a MATLAB license is not required to run the software. However, the MATLAB Compiler Runtime (MCR) is required. MCR is freely available and provides the shared libraries necessary to run applications developed with MATLAB.
