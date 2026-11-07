@@ -21,7 +21,7 @@ author_profile: false
 - Model refinement
 - ANOVA evaluation
 - Diagnostic plotting
-- Response surface visualization
+- Response surface visualization 2D and 3D
 
 ## Screenshots
 [View DesignERS screenshots →](/designers_screenshots/)
