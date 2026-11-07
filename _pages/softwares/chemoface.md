@@ -27,16 +27,9 @@ author_profile: false
   - Partial Least Squares (PLS)
 
 - **Classification**
-  - MLR-DA
-  - PCR-DA
-  - PLS-DA
-
-- **Auxiliary Features**
-  - Leave-one-out cross-validation
-  - Test set selection
-  - Data plotting
-  - Dataset construction from `.bmp` molecular images for MIA-QSAR
-  - Variable Importance in Projection (VIP)
+  - MLR discriminant analysis (MLR-DA)
+  - PCR discriminant analysis (PCR-DA)
+  - PLS discriminant analysis (PLS-DA)
 
 - **Preprocessing**
   - Mean centering
@@ -46,6 +39,13 @@ author_profile: false
   - Multiplicative Scatter Correction (MSC)
   - Spectral conversion (absorbance/transmittance)
   - Standard Normal Variate (SNV)
+
+- **Auxiliary Features**
+  - Leave-one-out cross-validation
+  - Test set selection
+  - Data plotting
+  - Dataset construction from `.bmp` molecular images for MIA-QSAR
+  - Variable Importance in Projection (VIP)
 
 ## Installing Chemoface
 Chemoface was developed in the MATLAB environment.
