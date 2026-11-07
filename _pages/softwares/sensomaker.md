@@ -71,7 +71,7 @@ SensoMaker uses a **dot (`.`) as the decimal separator**.
 For detailed instructions on using the software, please access the User Guide through the Help > User Guide menu on the software's home screen.
 
 ## SensoMaker Changelog
-[View SensoMaker Changelog →](/designers_changelog/)
+[View SensoMaker Changelog →](/sensomaker_changelog/)
 
 ## Reference
 
