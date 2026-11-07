@@ -10,45 +10,45 @@ author_profile: false
 
 **O Chemoface é um software de fácil utilização para análise de dados multivariados, com ferramentas para análise exploratória, calibração multivariada, classificação, pré-processamento de dados e planejamento experimental.**
 
-## Planejamento e Otimização de Experimentos
-- Planejamento Fatorial Completo
-- Planejamento Fatorial Fracionário
-- Planejamento Composto Central
-- Planejamento de Plackett–Burman
-- Planejamento de Misturas
-- Função de desejabilidade
+- **Planejamento e Otimização de Experimentos**
+  - Planejamento Fatorial Completo
+  - Planejamento Fatorial Fracionário
+  - Planejamento Composto Central
+  - Planejamento de Plackett–Burman
+  - Planejamento de Misturas
+  - Função de desejabilidade
 
-## Análise Exploratória
-- Análise de Componentes Principais (PCA)
-- Análise Hierárquica de Agrupamentos (HCA)
+- **Análise Exploratória**
+  - Análise de Componentes Principais (PCA)
+  - Análise Hierárquica de Agrupamentos (HCA)
 
-## Calibração Multivariada
-- Regressão Linear Múltipla (MLR)
-- Regressão por Componentes Principais (PCR)
-- Mínimos Quadrados Parciais (PLS)
+- **Calibração Multivariada**
+  - Regressão Linear Múltipla (MLR)
+  - Regressão por Componentes Principais (PCR)
+  - Mínimos Quadrados Parciais (PLS)
 
-## Classificação
-- MLR-DA
-- PCR-DA
-- PLS-DA
+- **Classificação**
+  - MLR-DA
+  - PCR-DA
+  - PLS-DA
 
-## Funcionalidades Auxiliares
-- Validação cruzada leave-one-out
-- Seleção do conjunto de teste
-- Gráficos de dados
-- Construção de conjuntos de dados a partir de imagens moleculares `.bmp` para MIA-QSAR
-- Importância da Variável na Projeção (VIP)
+- **Funcionalidades Auxiliares**
+  - Validação cruzada leave-one-out
+  - Seleção do conjunto de teste
+  - Gráficos de dados
+  - Construção de conjuntos de dados a partir de imagens moleculares `.bmp` para MIA-QSAR
+  - Importância da Variável na Projeção (VIP)
 
-## Pré-processamento
-- Centralização pela média
-- Autoescalamento
-- Suavização e derivadas
-- Normalização
-- Correção de espalhamento multiplicativo (MSC)
-- Conversão espectral (absorbância/transmitância)
-- Variável Normal Padrão (SNV)
+- **Pré-processamento**
+  - Centralização pela média
+  - Autoescalamento
+  - Suavização e derivadas
+  - Normalização
+  - Correção de espalhamento multiplicativo (MSC)
+  - Conversão espectral (absorbância/transmitância)
+  - Variável Normal Padrão (SNV)
 
-## Instalação
+## Instalação do Chemoface
 O Chemoface foi desenvolvido no ambiente MATLAB.
 
 Como o Chemoface é uma aplicação independente, não é necessária uma licença do MATLAB para executar o software. No entanto, é necessário instalar o MATLAB Compiler Runtime (MCR). O MCR está disponível gratuitamente e fornece as bibliotecas compartilhadas necessárias para executar aplicações desenvolvidas em MATLAB.
