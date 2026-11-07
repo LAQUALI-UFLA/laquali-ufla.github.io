@@ -28,13 +28,11 @@ author_profile: false
   - Mínimos Quadrados Parciais (PLS)
 
 - **Classificação**
-  - Análise discriminante por MLR (MLR-DA)
-  - Análise discriminante por PCR (PCR-DA)
-  - Análise discriminante por PLS (PLS-DA)
+  - Análise Discriminante por MLR (MLR-DA)
+  - Análise Discriminante por PCR (PCR-DA)
+  - Análise Discriminante por PLS (PLS-DA)
 
 - **Pré-processamento**
-  - Centralização pela média
-  - Autoescalamento
   - Suavização e derivadas
   - Normalização
   - Correção de espalhamento multiplicativo (MSC)
@@ -46,7 +44,7 @@ author_profile: false
   - Seleção do conjunto de teste
   - Gráficos de dados
   - Construção de conjuntos de dados a partir de imagens moleculares `.bmp` para MIA-QSAR
-  - Importância da Variável na Projeção (VIP)
+  - Gráficos de importância das variáveis
 
 ## Instalação do Chemoface
 O Chemoface foi desenvolvido no ambiente MATLAB.
