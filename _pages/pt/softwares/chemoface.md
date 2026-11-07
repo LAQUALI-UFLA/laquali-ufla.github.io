@@ -74,6 +74,9 @@ O Chemoface utiliza o **ponto (`.`) como separador decimal**.
 
 Para obter instruções detalhadas sobre a utilização do software, acesse o User Guide por meio do menu **Help > User Guide** na tela inicial do software.
 
+## Histórico de Alterações do Chemoface
+[Ver o Histórico de Alterações do Chemoface →](/pt/chemoface_changelog/)
+
 ## Referência
 
 O Chemoface foi descrito em:
