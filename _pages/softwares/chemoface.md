@@ -73,6 +73,9 @@ Chemoface uses a **dot (`.`) as the decimal separator**.
 
 For detailed instructions on using the software, please access the User Guide through the Help > User Guide menu on the software's home screen.
 
+## Chemoface Changelog
+[View Chemoface Changelog →](/chemoface_changelog/)
+
 ## Reference
 
 Chemoface was described in:
