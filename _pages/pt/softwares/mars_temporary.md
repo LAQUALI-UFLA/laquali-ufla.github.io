@@ -9,22 +9,48 @@ author_profile: false
 
 **maRS é um pacote R que oferece uma interface amigável e ferramentas para análise multivariada de dados, incluindo reconhecimento de padrões, classificação, regressão e outras aplicações analíticas relacionadas.**
 
-## Principais recursos
-- Pré-processamento de sinais (MSC, SNV, normalização L1/L2 e Savitzky–Golay)
-- Sobreamostragem de classes para dados desbalanceados (SMOTE e ADASYN)
-- Análise de Agrupamento Hierárquico (HCA)
-- Análise de Componentes Principais (PCA), com visualização em 2D e 3D
-- Projeção de linhas e colunas suplementares em PCA
-- Classificação de uma classe (SIMCA, DD-SIMCA e Robust DD-SIMCA)
-- Análise Discriminante por Regressão Linear Múltipla (MLR-DA)
-- Análise Discriminante por Mínimos Quadrados Parciais (PLS-DA)
-- Regressão Linear Múltipla (MLR)
-- Regressão por Mínimos Quadrados Parciais (PLS)
-- Algoritmos de seleção de variáveis (iPLS/iPLS-DA e BVE-PLS/BVE-PLS-DA)
-- Particionamento de conjuntos de amostras (Kennard-Stone, SPXY e aleatorizado)
-- Diagnóstico de modelos, gráficos de valores preditos versus observados e importância das variáveis
-- Predição de amostras externas e exportação de modelos
-- Gráficos interativos
+- **Gerenciamento, Visualização e Pré-processamento de Dados**
+  - Importação de arquivos (.xls, .xlsx, .txt, .dat, .csv)
+  - Definição dos grupos de calibração e teste
+  - Pré-processamento de sinais (MSC, SNV, normalização L1/L2 e Savitzky–Golay)
+  - Sobreamostragem de classes pela técnica Synthetic Minority Over-sampling Technique (SMOTE)
+  - Sobreamostragem de classes pelo método Adaptive Synthetic Sampling (ADASYN)
+  - Gráficos interativos de linhas e perfis
+
+- **Análise Exploratória**
+  - Análise de Agrupamento Hierárquico (HCA)
+  - Métodos de ligação Single, Complete e Average em HCA
+  - Coloração por agrupamento e número de grupos em HCA
+  - Análise de Componentes Principais (PCA)
+  - Projeção de linhas e colunas suplementares em PCA
+  - Visualizações 2D e 3D de Scores, Loadings e Biplot em PCA
+  - Elipses de confiança em PCA
+
+- **Calibração Multivariada**
+  - Regressão Linear Múltipla (MLR)
+  - Regressão por Mínimos Quadrados Parciais (PLS)
+  - Interval PLS (iPLS), com estratégias Forward e Backward
+  - Backward Variable Elimination PLS (BVE-PLS)
+  - Cálculo do Limite de Detecção (LOD)
+  - Diversas métricas de desempenho para regressão
+
+- **Classificação**
+  - Soft Independent Modeling of Class Analogy (SIMCA e DD-SIMCA)
+  - Análise Discriminante por MLR (MLR-DA)
+  - Análise Discriminante por PLS (PLS-DA)
+  - Análise Discriminante por iPLS (iPLS-DA)
+  - Análise Discriminante por BVE-PLS (BVE-PLS-DA)
+  - Cálculo da Fisher Ratio das variáveis
+  - Diversas métricas de desempenho para classificação
+
+- **Recursos Auxiliares**
+  - Particionamento de conjuntos de amostras (Kennard–Stone, SPXY, aleatório e indicação manual)
+  - Métodos de validação cruzada (Leave-One-Out (LOO), Venetian Blinds e k-fold aleatório)
+  - Teste de aleatorização de y (y-randomization)
+  - Determinação automática do número ideal de componentes ou variáveis latentes pelo método do cotovelo (Elbow Method)
+  - Gráficos de detecção de outliers, diagnóstico de modelos e importância das variáveis
+  - Predição de novos conjuntos de dados
+  - Exportação de gráficos (PNG, JPEG, TIFF, BMP, SVG, EPS e PPTX)
 
 ## Capturas de tela
 [Ver capturas de tela do maRS →](/pt/mars_screenshots/)
