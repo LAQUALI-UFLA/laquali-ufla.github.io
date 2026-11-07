@@ -21,7 +21,7 @@ author_profile: false
 - Refinamento de modelos
 - Avaliação por ANOVA
 - Gráficos de diagnóstico
-- Visualização de superfícies de resposta
+- Visualização de superfícies de resposta 2D e 3D
 
 ## Capturas de tela
 [Ver capturas de tela do DesignERS →](/pt/designers_screenshots/)
