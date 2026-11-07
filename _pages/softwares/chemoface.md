@@ -9,45 +9,45 @@ author_profile: false
 
 **Chemoface is user-friendly software for multivariate data analysis, with tools for exploratory analysis, multivariate calibration, classification, data preprocessing, and experimental design.**
 
-## Design of Experiments
-- Full Factorial Design
-- Fractional Factorial Design
-- Central Composite Design
-- Plackett–Burman Design
-- Mixture Design
-- Desirability function
+- **Design of Experiments**
+  - Full Factorial Design
+  - Fractional Factorial Design
+  - Central Composite Design
+  - Plackett–Burman Design
+  - Mixture Design
+  - Desirability function
 
-## Exploratory Analysis
-- Principal Component Analysis (PCA)
-- Hierarchical Cluster Analysis (HCA)
+- **Exploratory Analysis**
+  - Principal Component Analysis (PCA)
+  - Hierarchical Cluster Analysis (HCA)
 
-## Multivariate Calibration
-- Multiple Linear Regression (MLR)
-- Principal Component Regression (PCR)
-- Partial Least Squares (PLS)
+- **Multivariate Calibration**
+  - Multiple Linear Regression (MLR)
+  - Principal Component Regression (PCR)
+  - Partial Least Squares (PLS)
 
-## Classification
-- MLR-DA
-- PCR-DA
-- PLS-DA
+- **Classification**
+  - MLR-DA
+  - PCR-DA
+  - PLS-DA
 
-## Auxiliary Features
-- Leave-one-out cross-validation
-- Test set selection
-- Data plotting
-- Dataset construction from `.bmp` molecular images for MIA-QSAR
-- Variable Importance in Projection (VIP)
+- **Auxiliary Features**
+  - Leave-one-out cross-validation
+  - Test set selection
+  - Data plotting
+  - Dataset construction from `.bmp` molecular images for MIA-QSAR
+  - Variable Importance in Projection (VIP)
 
-## Preprocessing
-- Mean centering
-- Autoscaling
-- Smoothing and derivatives
-- Normalization
-- Multiplicative Scatter Correction (MSC)
-- Spectral conversion (absorbance/transmittance)
-- Standard Normal Variate (SNV)
+- **Preprocessing**
+  - Mean centering
+  - Autoscaling
+  - Smoothing and derivatives
+  - Normalization
+  - Multiplicative Scatter Correction (MSC)
+  - Spectral conversion (absorbance/transmittance)
+  - Standard Normal Variate (SNV)
 
-## Installation
+## Installing Chemoface
 Chemoface was developed in the MATLAB environment.
 
 Since Chemoface is a standalone application, a MATLAB license is not required to run the software. However, the MATLAB Compiler Runtime (MCR) is required. MCR is freely available and provides the shared libraries necessary to run applications developed with MATLAB.
