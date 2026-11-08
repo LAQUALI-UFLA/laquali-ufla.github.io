@@ -22,6 +22,7 @@ author_profile: false
 - Avaliação por ANOVA
 - Gráficos de diagnóstico
 - Visualização de superfícies de resposta 2D e 3D
+- Exportação de gráficos (PNG, JPEG, TIFF, BMP, SVG, EPS e PPTX)
 
 ## Capturas de tela
 [Ver capturas de tela do DesignERS →](/pt/designers_screenshots/)
