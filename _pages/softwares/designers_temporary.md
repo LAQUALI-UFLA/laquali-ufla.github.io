@@ -21,7 +21,8 @@ author_profile: false
 - Model refinement
 - ANOVA evaluation
 - Diagnostic plotting
-- Response surface visualization 2D and 3D
+- 2D and 3D response surface visualization
+- Plot export (PNG, JPEG, TIFF, BMP, SVG, EPS, and PPTX)
 
 ## Screenshots
 [View DesignERS screenshots →](/designers_screenshots/)
