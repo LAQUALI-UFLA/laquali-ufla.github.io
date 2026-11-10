@@ -103,6 +103,9 @@ maRSpkg::uninstall_mars()
 
 - No macOS, alguns gráficos podem exigir o XQuartz para serem exibidos corretamente. Caso ocorram problemas na exibição de gráficos acompanhados de uma mensagem de erro relacionada ao XQuartz, instale-o por meio de https://www.xquartz.org/ e reinicie o maRS.
 
+## Conjuntos de dados de exemplo
+[Baixar conjuntos de dados de exemplo. →](/mars//maRS_sample_datasets.zip/)
+
 ## Contato
 **Prof. Cleiton Nunes**  
 Universidade Federal de Lavras – UFLA  
