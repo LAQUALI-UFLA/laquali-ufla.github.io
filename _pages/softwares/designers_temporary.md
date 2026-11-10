@@ -40,7 +40,7 @@ source("https://laquali-ufla.github.io/DesignERS/install.R")
 ## Running DesignERS
 DesignERS can be accessed through either its graphical interface or as a regular R package.
 
-- **To use with the graphical interface from the shortcut**, launch DesignERS by clicking the shortcut icon <img src="/images/logo_DesignERS.png" style="height: 22px; width: auto; vertical-align: middle;"> available in the Start Menu or Application Launcher.
+- **To use the graphical interface from the shortcut**, launch DesignERS by clicking the shortcut icon available in the Start Menu (Windows), Application Launcher (Linux), or the Applications folder within the user directory (macOS). On macOS, DesignERS can also be launched using Spotlight.
 
 - **To use with the graphical interface from R**, start it with:
 
@@ -72,6 +72,8 @@ designers::uninstall_designers()
   - Other browsers may use different mechanisms for managing inactive tabs.
 
 - On Linux, some R packages may be installed from source and may therefore require additional system libraries and development tools. If a package installation fails due to compilation errors or missing system libraries, refer to your Linux distribution's documentation to install the dependencies indicated in the error message, then try installing the package again. If you experience problems installing DesignERS, make sure that the `shiny`, `rhandsontable`, and `htmlwidgets` packages are installed in R before attempting to install DesignERS again.
+
+- On macOS, some graphs may require XQuartz to be displayed correctly. If plotting issues occur with an error message related to XQuartz, install it from [https://www.xquartz.org/](https://www.xquartz.org/) and restart DesignERS.
 
 ## Contact
 **Prof. Cleiton Nunes**  
