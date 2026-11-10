@@ -40,7 +40,7 @@ source("https://laquali-ufla.github.io/DesignERS/install.R")
 ## Execução do DesignERS
 O DesignERS pode ser utilizado por meio de sua interface gráfica ou como um pacote R convencional.
 
-- **Para usar com interface gráfica através do atalho**, inicie o DesignERS clicando no ícone <img src="/images/logo_DesignERS.png" style="height: 22px; width: auto; vertical-align: middle;"> disponível no Menu Iniciar ou no Lançador de Aplicativos.
+- **Para usar com interface gráfica através do atalho**, inicie o DesignERS clicando no ícone disponível no Menu Iniciar (Windows), no Lançador de Aplicativos (Linux) ou na pasta Aplicativos dentro do diretório do usuário (macOS). No macOS, o DesignERS também pode ser iniciado por meio do Spotlight.
 
 - **Para usar com interface gráfica através do R**, use os comandos:
 
@@ -72,6 +72,8 @@ designers::uninstall_designers()
   - Outros navegadores podem utilizar mecanismos diferentes para gerenciar abas inativas.
 
 - No Linux, alguns pacotes do R podem ser instalados a partir do código-fonte e, portanto, exigir bibliotecas adicionais do sistema e ferramentas de desenvolvimento. Se a instalação de algum pacote falhar devido a erros de compilação ou à ausência de bibliotecas do sistema, consulte a documentação da sua distribuição Linux para instalar as dependências indicadas na mensagem de erro e, em seguida, tente instalar o pacote novamente. Se ocorrerem problemas durante a instalação do DesignERS, certifique-se de que os pacotes `shiny`, `rhandsontable` e `htmlwidgets` estejam instalados no R antes de tentar instalar o DesignERS novamente.
+
+- No macOS, alguns gráficos podem exigir o XQuartz para serem exibidos corretamente. Caso ocorram problemas na exibição de gráficos acompanhados de uma mensagem de erro relacionada ao XQuartz, instale-o por meio de https://www.xquartz.org/ e reinicie o DesignERS.
  
 ## Contato
 **Prof. Cleiton Nunes**  
