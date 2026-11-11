@@ -1,5 +1,5 @@
 ---
-permalink: /mars_temporary/
+permalink: /mars/
 title: "maRS"
 author_profile: false
 ---
