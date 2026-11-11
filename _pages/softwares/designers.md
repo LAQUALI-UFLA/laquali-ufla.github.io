@@ -1,5 +1,5 @@
 ---
-permalink: /designers_temporary/
+permalink: /designers/
 title: "DesignERS"
 author_profile: false
 ---
