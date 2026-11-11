@@ -4,18 +4,28 @@ if ("designers" %in% loadedNamespaces()) {
 
 options(repos = c(CRAN = "https://cloud.r-project.org"))
 if (!require("remotes", quietly = TRUE)) install.packages("remotes")
-remotes::install_url("https://laquali-ufla.github.io/DesignERS/DesignERS_inst_pkg.zip", force = TRUE, upgrade = "always")
 
-designers::create_shortcuts()
+# Try to download, install via URL, and create shortcuts with error handling
+sucesso <- tryCatch({
+  remotes::install_url("https://laquali-ufla.github.io/DesignERS/DesignERS_inst_pkg.zip", force = TRUE, upgrade = "always")
+  designers::create_shortcuts()
+  TRUE
+}, error = function(e) {
+  message("\n[ERROR] Package installation failed: ", e$message)
+  FALSE
+})
 
-message(
-  "########################################################## \n",
-  "Installation completed successfully! DesignERS is ready to use. \n\n",
-  "To use the graphical interface: \n",
-  "launch DesignERS from the Start Menu/Application Launcher \n",
-  "or run library(designers); designers_gui() in R.\n\n",
-  "To use DesignERS as a regular R package:\n",
-  "run library(designers) and \n",
-  "access its documentation with help(designers).\n",
-  "##########################################################"
-)
+# Display the success message only if installation succeeded and package is available
+if (sucesso && requireNamespace("designers", quietly = TRUE)) {
+  message(
+    "########################################################## \n",
+    "Installation completed successfully! DesignERS is ready to use. \n\n",
+    "To use the graphical interface: \n",
+    "launch DesignERS from its shortcut \n",
+    "or run library(designers); designers_gui() in R.\n\n",
+    "To use DesignERS as a regular R package:\n",
+    "run library(designers) and \n",
+    "access its documentation with help(designers).\n",
+    "##########################################################"
+  )
+}
