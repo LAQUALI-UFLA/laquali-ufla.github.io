@@ -5,4 +5,4 @@ author_profile: false
 ---
 
 - **Version 0.56:**
-  - xxx.
+  - Fixed an error when plotting LV curves with the test set enabled for variable selection models (iPLS, iPLS-DA, BVE/PLS, and BVE/PLS-DA).
