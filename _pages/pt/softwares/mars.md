@@ -107,6 +107,9 @@ maRSpkg::uninstall_mars()
 ## Conjuntos de dados de exemplo
 [Baixar conjuntos de dados de exemplo. →](/maRS/maRS_sample_datasets.zip)
 
+## Histórico de Alterações do maRS
+[Ver o Histórico de Alterações do maRS →](/pt/mars_changelog/)
+
 ## Contato
 **Prof. Cleiton Nunes**  
 Universidade Federal de Lavras – UFLA  
