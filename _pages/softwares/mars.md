@@ -106,6 +106,9 @@ maRSpkg::uninstall_mars()
 ## Sample datasets
 [Download sample datasets. →](/maRS/maRS_sample_datasets.zip)
 
+## maRS Changelog
+[View maRS Changelog →](/mars_changelog/)
+
 ## Contact
 **Prof. Cleiton Nunes**  
 Federal University of Lavras – UFLA  
