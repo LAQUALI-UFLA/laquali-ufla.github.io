@@ -5,4 +5,4 @@ author_profile: false
 ---
 
 - **Versão 0.56:**
-  - Corrigido um erro que ocorria ao plotar curvas de LV com o conjunto de teste habilitado para modelos de seleção de variáveis ​​(iPLS, iPLS-DA, BVE/PLS e BVE/PLS-DA).
+  - Corrigidos erros ao construir modelos e plotar curvas LV com o conjunto de teste habilitado para modelos com seleção de variáveis (iPLS, iPLS-DA, BVE/PLS e BVE/PLS-DA).
