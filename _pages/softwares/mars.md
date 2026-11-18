@@ -35,7 +35,7 @@ author_profile: false
   - Multiple regression performance metrics
 
 - **Classification**
-  - Soft Independent Modeling of Class Analogy (SIMCA, and DD-SIMCA)
+  - Soft Independent Modeling of Class Analogy (SIMCA and DD-SIMCA)
   - MLR Discriminant Analysis (MLR-DA)
   - PLS Discriminant Analysis (PLS-DA)
   - iPLS Discriminant Analysis (iPLS-DA)
